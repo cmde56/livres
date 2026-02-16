@@ -330,14 +330,14 @@
 
     if (lastUpdatedEl) {
       const now = new Date();
-      const formatter = new Intl.DateTimeFormat(undefined, {
+      const formatter = new Intl.DateTimeFormat('fr-FR', {
         year: 'numeric',
         month: 'short',
         day: '2-digit',
         hour: '2-digit',
         minute: '2-digit'
       });
-      lastUpdatedEl.textContent = `Last synced: ${formatter.format(now)}`;
+      lastUpdatedEl.textContent = `Dernière synchronisation: ${formatter.format(now)}`;
     }
   }
 
