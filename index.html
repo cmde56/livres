@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wishlist de livres</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="site-switcher">
+      <h1
+        class="site-title-toggle"
+        tabindex="0"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <span class="site-title-text">Wishlist de livres</span>
+        <span class="site-title-caret" aria-hidden="true">
+          &#x25BE;
+        </span>
+      </h1>
+    </div>
+    <!-- <div class="top-bar-right"> -->
+    <!--   <div class="view-switch"> -->
+    <!--     <span class="view-switch-label">View</span> -->
+    <!--     <select id="view-select"> -->
+    <!--       <option value="wantlist">Wishlist</option> -->
+    <!--     </select> -->
+    <!--     <div class="view-toggle-desktop" aria-hidden="true"> -->
+    <!--       <button type="button" class="view-toggle-button" data-view="wantlist">Wishlist</button> -->
+    <!--     </div> -->
+    <!--   </div> -->
+      <button id="theme-toggle" type="button">
+        <span class="theme-toggle-icon" aria-hidden="true">
+          <svg class="theme-toggle-icon-svg theme-icon-sun" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+            ></path>
+          </svg>
+          <svg class="theme-toggle-icon-svg theme-icon-moon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+            ></path>
+          </svg>
+        </span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="controls">
+      <input
+        id="search"
+        type="search"
+        placeholder="Chercher par auteur, titre ou provenance..."
+        autocomplete="off"
+      />
+      <span id="count" class="count"></span>
+      <span id="status" class="count">Chargement…</span>
+    </section>
+
+
+    <section class="table-wrapper">
+      <div id="tables-container" class="tables-container" aria-live="polite">
+        <p class="placeholder">No data yet. Add collection.json and wantlist.json to this folder.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span id="last-updated" class="last-updated"></span>
+    </footer>
+  </main>
+
+  <div class="bottom-bar">
+    <div class="bottom-bar-inner">
+      <div class="pagination-controls">
+        <button id="prev-page" type="button">Précédent</button>
+        <span id="page-info">Page 1 sur 1</span>
+        <button id="next-page" type="button">Suivant</button>
+      </div>
+      <div class="page-size-controls">
+        <label for="page-size">Items par page:</label>
+        <select id="page-size">
+          <option value="100" selected>100</option>
+          <option value="200">200</option>
+          <option value="all">Tout</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
