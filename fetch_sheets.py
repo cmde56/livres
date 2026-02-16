@@ -1,6 +1,6 @@
 import json
 import os
-from typing import List, Dict
+from typing import List, Dict, Any
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -26,7 +26,7 @@ def get_service_account_credentials():
 
 def fetch_sheet_values(
     service, spreadsheet_id: str, range_name: str
-) -> List[Dict[str, str]]:
+) -> List[Dict[str, Any]]:
     result = (
         service.spreadsheets()
         .values()
@@ -40,7 +40,7 @@ def fetch_sheet_values(
     headers = values[0]
     rows = values[1:]
 
-    mapped_rows: List[Dict[str, str]] = []
+    mapped_rows: List[Dict[str, Any]] = []
     for row in rows:
         if not any(cell.strip() for cell in row if isinstance(cell, str)):
             continue
@@ -50,11 +50,15 @@ def fetch_sheet_values(
             for idx, header in enumerate(headers)
         }
 
+        raw_priority = row_dict.get("Prioritaire", "").strip().lower()
+        priority = raw_priority == "oui"
+
         mapped_rows.append(
             {
                 "author": row_dict.get("Auteur", ""),
                 "title": row_dict.get("Titre", ""),
                 "location": row_dict.get("Format/Provenance", ""),
+                "priority": priority,
             }
         )
 
@@ -76,7 +80,7 @@ def main() -> None:
     service = build("sheets", "v4", credentials=creds, cache_discovery=False)
 
     # collection = fetch_sheet_values(service, spreadsheet_id, "collection!A:C")
-    wantlist = fetch_sheet_values(service, spreadsheet_id, "wishlist!A:C")
+    wantlist = fetch_sheet_values(service, spreadsheet_id, "wishlist!A:D")
 
     # write_json("collection.json", collection)
     write_json("wantlist.json", wantlist)

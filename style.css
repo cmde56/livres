@@ -227,6 +227,19 @@ body,
   margin-bottom: 0.9rem;
 }
 
+.top-note {
+  margin-bottom: 0.9rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.75rem;
+  border: 1px dashed var(--border-soft);
+  background-color: color-mix(in srgb, var(--bg-elevated) 92%, var(--accent) 8%);
+}
+
+.top-note span {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 #search {
   flex: 1 1 220px;
   padding: 0.55rem 0.7rem;
@@ -343,6 +356,11 @@ body,
 
 .book-table tbody tr:hover {
   background-color: color-mix(in srgb, var(--bg-elevated) 92%, var(--accent) 8%);
+}
+
+.book-table tbody tr.is-priority {
+  font-weight: 600;
+  background-color: color-mix(in srgb, var(--bg-elevated) 88%, var(--accent) 12%);
 }
 
 .footer {

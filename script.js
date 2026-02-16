@@ -303,6 +303,10 @@
     pageItems.forEach((item) => {
       const tr = document.createElement('tr');
 
+      if (item.priority) {
+        tr.classList.add('is-priority');
+      }
+
       const authorTd = document.createElement('td');
       authorTd.textContent = item.author || '';
       tr.appendChild(authorTd);
