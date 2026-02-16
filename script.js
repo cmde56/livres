@@ -275,7 +275,7 @@
 
     if (totalItems === 0) {
       tablesContainer.innerHTML = '<p class="placeholder">No matching items.</p>';
-      pageInfo.textContent = 'Page 1 of 1';
+      pageInfo.textContent = 'Page 1 sur 1';
       prevBtn.disabled = true;
       nextBtn.disabled = true;
       if (lastUpdatedEl) {
@@ -343,7 +343,7 @@
 
   function updatePaginationControls(totalItems) {
     if (state.pageSize === 'all' || totalItems === 0) {
-      pageInfo.textContent = 'Page 1 of 1';
+      pageInfo.textContent = 'Page 1 sur 1';
       prevBtn.disabled = true;
       nextBtn.disabled = true;
       return;
@@ -356,7 +356,7 @@
       state.currentPage = totalPages;
     }
 
-    pageInfo.textContent = `Page ${state.currentPage} of ${totalPages}`;
+    pageInfo.textContent = `Page ${state.currentPage} sur ${totalPages}`;
     prevBtn.disabled = state.currentPage <= 1;
     nextBtn.disabled = state.currentPage >= totalPages;
   }
