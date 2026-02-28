@@ -68,7 +68,7 @@
   {
     "author": "Estanguet T",
     "location": "",
-    "priority": false,
+    "priority": true,
     "title": "Pour l'amour du sport"
   },
   {
@@ -104,7 +104,7 @@
   {
     "author": "Giebel K",
     "location": "livre de poche",
-    "priority": false,
+    "priority": true,
     "title": "Et chaque fois, mourir un peu: 1- Blast, 2- Trauma"
   },
   {
@@ -231,7 +231,7 @@
     "author": "Moberg W.",
     "location": "livre de poche",
     "priority": false,
-    "title": "La saga des émigrants (4 volumes) (LP)"
+    "title": "La saga des émigrants (4 volumes)"
   },
   {
     "author": "Norek O",
@@ -327,7 +327,13 @@
     "author": "Thilliez F",
     "location": "livre de poche",
     "priority": false,
-    "title": "*La forêt des ombres, L’anneau de Mobius, Vertiges, Puzzle, *Voir aussi suite Sharko/Hennebelle après La faille + le début de la série non lus : Train d’enfer pour ange rouge, La chambre des morts, Deuil de miel, (tous les 3 en LP), Après la faille c’est « A retardement »"
+    "title": "*La forêt des ombres, L’anneau de Mobius, Vertiges, Puzzle, *Voir aussi suite Sharko/Hennebelle après La faille + le début de la série non lus : Train d’enfer pour ange rouge, La chambre des morts, Deuil de miel, (tous les 3 en LP)"
+  },
+  {
+    "author": "Thilliez F",
+    "location": "livre de poche",
+    "priority": true,
+    "title": "A retardement"
   },
   {
     "author": "Tremblay d'Essiambre",
