@@ -1,380 +1,464 @@
 [
   {
     "author": "Adler Olsen J",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": ""
   },
   {
     "author": "Bal Olivier",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Roches de sang"
   },
   {
     "author": "Bannel C",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Le huitième fléau, La menace Mercure, Elixir, L’homme de Kaboul, Baad, Kaboul Express"
   },
   {
     "author": "Bardon C",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Les déracinés: 5 tomes"
   },
   {
     "author": "Barker P",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Les exilées de Troie et Le silence des vaincues"
   },
   {
     "author": "Chalandon S",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "L’enragé"
   },
   {
     "author": "Chattam M",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "L’appel du néant"
   },
   {
     "author": "Carrisi Donato",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "L’égarée, Le jeu du chuchoteur"
   },
   {
     "author": "Dejean C",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Voulez-vous tuer avec moi ce soir, La fille de Kali, Double amnésie"
   },
   {
     "author": "Di Fulvio L",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "L‘empailleur"
   },
   {
     "author": "Ellory EJ",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Les assassins"
   },
   {
     "author": "Estanguet T",
+<<<<<<< Updated upstream
     "location": "",
     "priority": true,
+=======
+    "format": "",
+    "priority": true,
+    "provenance": "",
+>>>>>>> Stashed changes
     "title": "Pour l'amour du sport"
   },
   {
     "author": "Ferey C",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Magali"
   },
   {
     "author": "Follet K",
-    "location": "",
+    "format": "",
     "priority": true,
+    "provenance": "",
     "title": "Le cercle des jours"
   },
   {
     "author": "French Tana",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "La maison des absents"
   },
   {
     "author": "Giambanco Valentina",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "(« 13 jours » lu)"
   },
   {
     "author": "Giebel K",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Terminus Elicius, Chambres noires"
   },
   {
     "author": "Giebel K",
+<<<<<<< Updated upstream
     "location": "livre de poche",
     "priority": true,
+=======
+    "format": "livre de poche",
+    "priority": true,
+    "provenance": "",
+>>>>>>> Stashed changes
     "title": "Et chaque fois, mourir un peu: 1- Blast, 2- Trauma"
   },
   {
     "author": "Gonzalez R",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Des os dans le désert"
   },
   {
     "author": "Grebe C",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Le journal de ma disparition, L’ombre de la baleine"
   },
   {
     "author": "Green Emma",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Ce qui nous rend vivants"
   },
   {
     "author": "Gustawsson J",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Les morsures du silence (Prix maison de la presse 2025, présent sur le pôle)"
   },
   {
     "author": "Harding L",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Abattage"
   },
   {
     "author": "Higgins Clark M",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Un cri dans la nuit"
   },
   {
     "author": "Higgins Clark M",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "La nuit du renard, La clinique du Dr H"
   },
   {
     "author": "Indridason A",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Duel, Les nuits de Reykjavik, Le lagon noir,  Les fils de la poussière, Les roses de al nuit, La femme en vert, La voix, L’homme du lac, Hiver arctique, Hypothermie, La rivière noire, Les murailles de lave, Etranges rivages"
   },
   {
     "author": "Jacobs Anne",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Série « La villa aux étoffes »"
   },
   {
     "author": "Joncour S",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Chaleur humaine"
   },
   {
     "author": "Jourdan-Vezia JF",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Les chroniques de la famille de Quent : 3 parties"
   },
   {
     "author": "Koofi F",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Lettre à mes filles, entre terreur et espoir, les combats de la 1ère femme politique afghane"
   },
   {
     "author": "Läckberg C.",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": ""
   },
   {
     "author": "Leclerc R.",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Les Cayrol"
   },
   {
     "author": "Legardiner Gilles",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Ça peut pas rater, L’exil des anges"
   },
   {
     "author": "Loubry J",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": ""
   },
   {
     "author": "MacInnerney Jay",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Trente an et des poussières, La belle vie et Les jours enfuis"
   },
   {
     "author": "Malraux A.",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "L'espoir"
   },
   {
     "author": "Mars F",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Le sang du christ, Le manuel du serial killer"
   },
   {
     "author": "Minier B",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Lucia, Les effacées, H (Servaz)"
   },
   {
     "author": "Moberg W.",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+<<<<<<< Updated upstream
+=======
+    "provenance": "",
+>>>>>>> Stashed changes
     "title": "La saga des émigrants (4 volumes)"
   },
   {
     "author": "Norek O",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": ""
   },
   {
     "author": "Pinborough S",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Insomnia (M Meucon)"
   },
   {
     "author": "Pobi R",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Les innocents et voir suite « Lucas Page »"
   },
   {
     "author": "Pulixi P",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "L’île des âmes"
   },
   {
     "author": "Raspail J",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Le camp des saints"
   },
   {
     "author": "Ravenne G",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Saga « Soleil noir »"
   },
   {
     "author": "Reverdy T-B",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Le grand secours"
   },
   {
     "author": "Reza Yasmina",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Babylone"
   },
   {
     "author": "Ryan D",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Par une mer basse et tranquille"
   },
   {
     "author": "Sénéchal Patrick",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Le vide"
   },
   {
     "author": "Sire C",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": ""
   },
   {
     "author": "Smith W.",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "La montagne de diamants (2 tomes)"
   },
   {
     "author": "Sweeny N.",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "La fille des camps"
   },
   {
     "author": "Tabachnik Maud",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Le chien qui riait, Ciel de cendres"
   },
   {
     "author": "Theveny S",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Le fils perdu, Seule (les 2 sont de la suite Karen Blackstone)"
   },
   {
     "author": "Thilliez F",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+<<<<<<< Updated upstream
+=======
+    "provenance": "",
+>>>>>>> Stashed changes
     "title": "*La forêt des ombres, L’anneau de Mobius, Vertiges, Puzzle, *Voir aussi suite Sharko/Hennebelle après La faille + le début de la série non lus : Train d’enfer pour ange rouge, La chambre des morts, Deuil de miel, (tous les 3 en LP)"
   },
   {
     "author": "Thilliez F",
+<<<<<<< Updated upstream
     "location": "livre de poche",
     "priority": true,
+=======
+    "format": "livre de poche",
+    "priority": true,
+    "provenance": "",
+>>>>>>> Stashed changes
     "title": "A retardement"
   },
   {
     "author": "Tremblay d'Essiambre",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Une simple histoire d’amour (LP)"
   },
   {
     "author": "Tremblay d'Essiambre",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": "Histoire de femme (4 tomes)"
   },
   {
     "author": "Van Der Vlugt S",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Bleu de Delft"
   },
   {
     "author": "Verdon John",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Ne réveillez pas le diable qui dort"
   },
   {
     "author": "Widholm K",
-    "location": "médiathèque",
+    "format": "",
     "priority": false,
+    "provenance": "médiathèque",
     "title": "Destinée suédoise (4 tomes)"
   },
   {
     "author": "Willocks T",
-    "location": "",
+    "format": "",
     "priority": false,
+    "provenance": "",
     "title": ""
   },
   {
     "author": "Wood B.",
-    "location": "livre de poche",
+    "format": "livre de poche",
     "priority": false,
+    "provenance": "",
     "title": "Les vierges du paradis"
   }
 ]

@@ -29,11 +29,9 @@
 
   const state = {
     data: {
-      // DVD collection data (kept for potential reuse)
-      // collection: [],
-      wantlist: []
+      wantlist: [],
+      lus: []
     },
-    // For the book site we only expose the Wishlist view.
     currentView: 'wantlist',
     pageSize: 100,
     currentPage: 1,
@@ -50,76 +48,84 @@
   const lastUpdatedEl = document.getElementById('last-updated');
   const searchInput = document.getElementById('search');
   const countEl = document.getElementById('count');
+  const topNoteSection = document.querySelector('.top-note');
+
+  function normalizeProvenance(value) {
+    if (!value) return '';
+    const trimmed = String(value).trim();
+    if (!trimmed) return '';
+    const lower = trimmed.toLowerCase();
+    if (lower === 'médiathèque' || lower === 'mediatheque') {
+      return 'médiathèque';
+    }
+    return trimmed;
+  }
 
   function setView(view) {
-    // For books we always show the Wishlist; keep the old
-    // collection/wantlist switching logic commented for reuse.
-
-    // state.currentView = view === 'wantlist' ? 'wantlist' : 'collection';
-    state.currentView = 'wantlist';
+    const nextView = view === 'lus' ? 'lus' : 'wantlist';
+    state.currentView = nextView;
     state.currentPage = 1;
 
     if (viewSelect) {
-      viewSelect.value = 'wantlist';
+      viewSelect.value = nextView;
     }
 
     const desktopToggle = document.querySelectorAll('.view-toggle-button');
     desktopToggle.forEach((btn) => {
       const btnView = btn.getAttribute('data-view');
-      btn.classList.toggle('is-active', btnView === 'wantlist');
+      btn.classList.toggle('is-active', btnView === state.currentView);
     });
 
     try {
-      // Kept for backward compatibility; value is now always 'wantlist'.
-      localStorage.setItem('dvd.view', 'wantlist');
+      localStorage.setItem('dvd.view', state.currentView);
     } catch (e) {
       // ignore storage errors
     }
+
+    updateTopNoteVisibility();
 
     render();
   }
 
   function initView() {
-    // Force initial view to the Wishlist.
-    state.currentView = 'wantlist';
+    let initial = 'wantlist';
+    try {
+      const stored = localStorage.getItem('dvd.view');
+      if (stored === 'wantlist' || stored === 'lus') {
+        initial = stored;
+      }
+    } catch (e) {
+      // ignore storage errors
+    }
+
+    state.currentView = initial;
 
     if (viewSelect) {
-      viewSelect.value = 'wantlist';
+      viewSelect.value = initial;
     }
 
     const desktopToggle = document.querySelectorAll('.view-toggle-button');
     desktopToggle.forEach((btn) => {
       const btnView = btn.getAttribute('data-view');
-      btn.classList.toggle('is-active', btnView === 'wantlist');
+      btn.classList.toggle('is-active', btnView === state.currentView);
     });
 
-    // Previous DVD implementation (kept for future reuse):
-    // let initial = 'collection';
-    // try {
-    //   const stored = localStorage.getItem('dvd.view');
-    //   if (stored === 'wantlist' || stored === 'collection') {
-    //     initial = stored;
-    //   }
-    // } catch (e) {
-    //   // ignore storage errors
-    // }
-    // state.currentView = initial;
-    // if (viewSelect) {
-    //   viewSelect.value = initial;
-    // }
-    // const desktopToggle = document.querySelectorAll('.view-toggle-button');
-    // desktopToggle.forEach((btn) => {
-    //   const btnView = btn.getAttribute('data-view');
-    //   btn.classList.toggle('is-active', btnView === state.currentView);
-    // });
+    updateTopNoteVisibility();
+  }
+
+  function updateTopNoteVisibility() {
+    if (!topNoteSection) return;
+    if (state.currentView === 'lus') {
+      topNoteSection.style.display = 'none';
+    } else {
+      topNoteSection.style.display = '';
+    }
   }
 
   function setupViewSwitch() {
     if (viewSelect) {
       viewSelect.addEventListener('change', () => {
-        // Original DVD version allowed switching between collection and wantlist:
-        // const next = viewSelect.value === 'wantlist' ? 'wantlist' : 'collection';
-        const next = 'wantlist';
+        const next = viewSelect.value === 'lus' ? 'lus' : 'wantlist';
         setView(next);
       });
     }
@@ -128,8 +134,7 @@
     desktopButtons.forEach((btn) => {
       btn.addEventListener('click', () => {
         const view = btn.getAttribute('data-view');
-        // setView(view === 'wantlist' ? 'wantlist' : 'collection');
-        setView('wantlist');
+        setView(view === 'lus' ? 'lus' : 'wantlist');
       });
     });
   }
@@ -196,22 +201,33 @@
   async function loadData() {
     try {
       setStatus('Loading data…');
-      // DVD version also loaded the collection here:
-      // const [collectionRes, wantlistRes] = await Promise.all([
-      //   fetch('collection.json', { cache: 'no-store' }),
-      //   fetch('wantlist.json', { cache: 'no-store' })
-      // ]);
+      const [wantlistRes, lusRes] = await Promise.all([
+        fetch('wantlist.json', { cache: 'no-store' }),
+        fetch('lus.json', { cache: 'no-store' })
+      ]);
 
-      const wantlistRes = await fetch('wantlist.json', { cache: 'no-store' });
-
-      if (!wantlistRes.ok) {
-        setStatus('No data yet. Make sure wantlist.json exists.', true);
+      if (!wantlistRes.ok && !lusRes.ok) {
+        setStatus('No data yet. Make sure wantlist.json and lus.json exist.', true);
         return;
       }
 
-      state.data.wantlist = await wantlistRes.json();
+      if (wantlistRes.ok) {
+        state.data.wantlist = await wantlistRes.json();
+      } else {
+        state.data.wantlist = [];
+      }
+
+      if (lusRes.ok) {
+        state.data.lus = await lusRes.json();
+      } else {
+        state.data.lus = [];
+      }
+
       if (!Array.isArray(state.data.wantlist)) {
         state.data.wantlist = [];
+      }
+      if (!Array.isArray(state.data.lus)) {
+        state.data.lus = [];
       }
 
       state.currentPage = 1;
@@ -225,14 +241,21 @@
   }
 
   function getCurrentDataset() {
-    // For the book site we always work from the Wishlist data.
-    const base = state.data.wantlist || [];
+    const base =
+      state.currentView === 'lus'
+        ? state.data.lus || []
+        : state.data.wantlist || [];
     const q = (state.searchQuery || '').trim().toLowerCase();
 
     if (!q) {
       if (countEl) {
         const n = base.length;
-        const label = n === 1 ? 'livre' : 'livres';
+        let label;
+        if (state.currentView === 'lus') {
+          label = n === 1 ? 'livre lu' : 'livres lus';
+        } else {
+          label = n === 1 ? 'livre' : 'livres';
+        }
         countEl.textContent = `${n} ${label}`;
       }
       return base;
@@ -241,13 +264,24 @@
     const filtered = base.filter((item) => {
       const author = (item.author || '').toLowerCase();
       const title = (item.title || '').toLowerCase();
-      const location = (item.location || '').toLowerCase();
-      return author.includes(q) || title.includes(q) || location.includes(q);
+      const provenance = (item.provenance || item.location || '').toLowerCase();
+      const format = (item.format || '').toLowerCase();
+      return (
+        author.includes(q) ||
+        title.includes(q) ||
+        provenance.includes(q) ||
+        format.includes(q)
+      );
     });
 
     if (countEl) {
       const n = filtered.length;
-      const label = n === 1 ? 'livre' : 'livres';
+      let label;
+      if (state.currentView === 'lus') {
+        label = n === 1 ? 'livre lu' : 'livres lus';
+      } else {
+        label = n === 1 ? 'livre' : 'livres';
+      }
       countEl.textContent = `${n} ${label} found`;
     }
 
@@ -258,15 +292,119 @@
     if (state.pageSize === 'all') {
       return dataset;
     }
-
-    const size = Number(state.pageSize) || 100;
-    if (size <= 0) {
-      return dataset;
+    if (state.currentView === 'lus') {
+      const size = Number(state.pageSize) || 100;
+      if (size <= 0) {
+        return dataset;
+      }
+      const start = (state.currentPage - 1) * size;
+      const end = start + size;
+      return dataset.slice(start, end);
     }
 
-    const start = (state.currentPage - 1) * size;
-    const end = start + size;
-    return dataset.slice(start, end);
+    const pages = buildProvenancePages(dataset);
+    if (pages.length === 0) {
+      return [];
+    }
+
+    const pageIndex = Math.max(0, Math.min(state.currentPage - 1, pages.length - 1));
+    return pages[pageIndex];
+  }
+
+  function buildProvenancePages(dataset) {
+    if (!dataset || dataset.length === 0) {
+      return [];
+    }
+
+    const size = Number(state.pageSize) || 100;
+    if (state.pageSize === 'all' || size <= 0) {
+      return [dataset];
+    }
+
+    const byKey = new Map();
+    const orderIndex = new Map();
+    let idx = 0;
+
+    dataset.forEach((item) => {
+      const key = normalizeProvenance(item.provenance || '');
+      if (!byKey.has(key)) {
+        byKey.set(key, []);
+        orderIndex.set(key, idx++);
+      }
+      byKey.get(key).push(item);
+    });
+
+    const emptyKey = '';
+    const mediaKey = 'médiathèque';
+    const allKeys = Array.from(byKey.keys());
+    const otherKeys = allKeys.filter((k) => k !== emptyKey && k !== mediaKey);
+    otherKeys.sort((a, b) => (orderIndex.get(a) || 0) - (orderIndex.get(b) || 0));
+
+    const orderedKeys = [];
+    if (byKey.has(emptyKey)) orderedKeys.push(emptyKey);
+    orderedKeys.push(...otherKeys);
+    if (byKey.has(mediaKey)) orderedKeys.push(mediaKey);
+
+    const pages = [];
+    let currentPageItems = [];
+    let currentCount = 0;
+
+    orderedKeys.forEach((key) => {
+      const items = byKey.get(key) || [];
+      const groupSize = items.length;
+
+      if (currentPageItems.length === 0) {
+        currentPageItems = items.slice();
+        currentCount = groupSize;
+        pages.push(currentPageItems);
+        return;
+      }
+
+      if (currentCount + groupSize > size) {
+        currentPageItems = items.slice();
+        currentCount = groupSize;
+        pages.push(currentPageItems);
+      } else {
+        currentPageItems = currentPageItems.concat(items);
+        currentCount += groupSize;
+        pages[pages.length - 1] = currentPageItems;
+      }
+    });
+
+    return pages;
+  }
+
+  function groupByProvenance(items) {
+    const byKey = new Map();
+    const orderIndex = new Map();
+    let idx = 0;
+
+    items.forEach((item) => {
+      const key = normalizeProvenance(item.provenance || '');
+      if (!byKey.has(key)) {
+        byKey.set(key, []);
+        orderIndex.set(key, idx++);
+      }
+      byKey.get(key).push(item);
+    });
+
+    const emptyKey = '';
+    const mediaKey = 'médiathèque';
+    const allKeys = Array.from(byKey.keys());
+    const otherKeys = allKeys.filter((k) => k !== emptyKey && k !== mediaKey);
+    otherKeys.sort((a, b) => (orderIndex.get(a) || 0) - (orderIndex.get(b) || 0));
+
+    const orderedKeys = [];
+    if (byKey.has(emptyKey)) orderedKeys.push(emptyKey);
+    orderedKeys.push(...otherKeys);
+    if (byKey.has(mediaKey)) orderedKeys.push(mediaKey);
+
+    return orderedKeys.map((key) => ({
+      provenance: key,
+      // No visible label for empty provenance groups.
+      label: key || '',
+      items: byKey.get(key) || []
+    }));
   }
 
   function renderTables() {
@@ -286,45 +424,121 @@
 
     const pageItems = getPageItems(dataset);
 
-    const table = document.createElement('table');
-    table.className = 'book-table';
+    const containerFrag = document.createDocumentFragment();
 
-    const thead = document.createElement('thead');
-    const headerRow = document.createElement('tr');
-    ['Auteur', 'Titre', 'Format/Provenance'].forEach((col) => {
-      const th = document.createElement('th');
-      th.textContent = col;
-      headerRow.appendChild(th);
-    });
-    thead.appendChild(headerRow);
-    table.appendChild(thead);
+    if (state.currentView === 'lus') {
+      const table = document.createElement('table');
+      table.className = 'book-table';
 
-    const tbody = document.createElement('tbody');
-    pageItems.forEach((item) => {
-      const tr = document.createElement('tr');
+      const thead = document.createElement('thead');
+      const headerRow = document.createElement('tr');
+      ['Auteur', 'Titre'].forEach((col) => {
+        const th = document.createElement('th');
+        th.textContent = col;
+        headerRow.appendChild(th);
+      });
+      thead.appendChild(headerRow);
+      table.appendChild(thead);
 
-      if (item.priority) {
-        tr.classList.add('is-priority');
-      }
+      const tbody = document.createElement('tbody');
+      pageItems.forEach((item) => {
+        const tr = document.createElement('tr');
 
-      const authorTd = document.createElement('td');
-      authorTd.textContent = item.author || '';
-      tr.appendChild(authorTd);
+        const authorTd = document.createElement('td');
+        authorTd.textContent = item.author || '';
+        tr.appendChild(authorTd);
 
-      const titleTd = document.createElement('td');
-      titleTd.textContent = item.title || '';
-      tr.appendChild(titleTd);
+        const titleTd = document.createElement('td');
+        titleTd.textContent = item.title || '';
+        tr.appendChild(titleTd);
 
-      const locationTd = document.createElement('td');
-      locationTd.textContent = item.location || '';
-      tr.appendChild(locationTd);
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
 
-      tbody.appendChild(tr);
-    });
-    table.appendChild(tbody);
+      containerFrag.appendChild(table);
+    } else {
+      const groups = groupByProvenance(pageItems);
+
+      groups.forEach((group) => {
+        if (!group.items.length) return;
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'provenance-wrapper';
+
+        const section = document.createElement('section');
+        section.className = 'provenance-section';
+
+        if (group.label) {
+          const heading = document.createElement('h2');
+          heading.textContent = group.label;
+          section.appendChild(heading);
+        }
+
+        const table = document.createElement('table');
+        table.className = 'book-table';
+
+        const thead = document.createElement('thead');
+        const headerRow = document.createElement('tr');
+        ['Auteur', 'Titre', 'Format'].forEach((col) => {
+          const th = document.createElement('th');
+          th.textContent = col;
+          headerRow.appendChild(th);
+        });
+        thead.appendChild(headerRow);
+        table.appendChild(thead);
+
+        const tbody = document.createElement('tbody');
+        group.items.forEach((item) => {
+          const tr = document.createElement('tr');
+
+          if (item.priority) {
+            tr.classList.add('is-priority');
+          }
+
+          const authorTd = document.createElement('td');
+          if (item.priority) {
+            const starSpan = document.createElement('span');
+            starSpan.className = 'priority-star';
+
+            const svgNS = 'http://www.w3.org/2000/svg';
+            const svg = document.createElementNS(svgNS, 'svg');
+            svg.setAttribute('viewBox', '0 0 24 24');
+            svg.setAttribute('aria-hidden', 'true');
+
+            const path = document.createElementNS(svgNS, 'path');
+            path.setAttribute('d', 'M12 2.5l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.8 6.2 20.4l1.1-6.5-4.7-4.6 6.5-.9L12 2.5z');
+
+            svg.appendChild(path);
+            starSpan.appendChild(svg);
+            authorTd.appendChild(starSpan);
+          }
+
+          const authorText = document.createTextNode(item.author || '');
+          authorTd.appendChild(authorText);
+          tr.appendChild(authorTd);
+
+          const titleTd = document.createElement('td');
+          titleTd.textContent = item.title || '';
+          tr.appendChild(titleTd);
+
+          const formatTd = document.createElement('td');
+          const formatValue = (item.format && String(item.format).trim()) || item.location || '';
+          formatTd.textContent = formatValue;
+          tr.appendChild(formatTd);
+
+          tbody.appendChild(tr);
+        });
+        table.appendChild(tbody);
+
+        section.appendChild(table);
+        wrapper.appendChild(section);
+        containerFrag.appendChild(wrapper);
+      });
+    }
 
     tablesContainer.innerHTML = '';
-    tablesContainer.appendChild(table);
+    tablesContainer.appendChild(containerFrag);
 
     updatePaginationControls(totalItems);
 
@@ -349,8 +563,16 @@
       return;
     }
 
-    const size = Number(state.pageSize) || 100;
-    const totalPages = Math.max(1, Math.ceil(totalItems / size));
+    const dataset = getCurrentDataset();
+    let totalPages;
+
+    if (state.currentView === 'lus') {
+      const size = Number(state.pageSize) || 100;
+      totalPages = Math.max(1, Math.ceil(totalItems / size));
+    } else {
+      const pages = buildProvenancePages(dataset);
+      totalPages = pages.length || 1;
+    }
 
     if (state.currentPage > totalPages) {
       state.currentPage = totalPages;
@@ -382,8 +604,18 @@
   function onNextPage() {
     const dataset = getCurrentDataset();
     const totalItems = dataset.length;
-    const size = state.pageSize === 'all' ? totalItems : Number(state.pageSize) || 100;
-    const totalPages = state.pageSize === 'all' ? 1 : Math.max(1, Math.ceil(totalItems / size));
+    if (state.pageSize === 'all') {
+      return;
+    }
+
+    let totalPages;
+    if (state.currentView === 'lus') {
+      const size = Number(state.pageSize) || 100;
+      totalPages = Math.max(1, Math.ceil(totalItems / size));
+    } else {
+      const pages = buildProvenancePages(dataset);
+      totalPages = pages.length || 1;
+    }
 
     if (state.currentPage < totalPages) {
       state.currentPage += 1;

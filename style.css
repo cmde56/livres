@@ -185,8 +185,6 @@ body,
 }
 
 .view-switch {
-  /* In the book version we only show the Wishlist;
-     the underlying markup is kept but visually simplified. */
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
@@ -195,10 +193,6 @@ body,
   border: 1px solid var(--border);
   background-color: var(--bg-elevated);
   font-size: 0.8rem;
-}
-
-.view-switch-label {
-  color: var(--muted);
 }
 
 #view-select {
@@ -274,21 +268,32 @@ body,
   padding: 0.4rem 0.4rem 0.6rem;
 }
 
-/* For books we no longer group by category; the
-   container now simply holds a single table. */
+/* The books view groups rows by Provenance into
+   sub-sections rendered inside this container. */
 .tables-container {
   display: block;
 }
 
-/* Previous DVD category layout kept for possible reuse:
-.category-section {
-  border-radius: 0.75rem;
+.provenance-wrapper {
+  margin-bottom: 1rem;
+  padding: 0.4rem 0.4rem 0.6rem;
+  border-radius: 0.9rem;
   border: 1px solid var(--border-soft);
+  background-color: var(--bg-elevated);
+  box-shadow: var(--shadow-soft);
+}
+
+.provenance-wrapper:last-of-type {
+  margin-bottom: 0;
+}
+
+.provenance-section {
+  border-radius: 0.75rem;
   background-color: var(--bg);
   overflow: hidden;
 }
 
-.category-section h2 {
+.provenance-section h2 {
   margin: 0;
   padding: 0.6rem 0.9rem;
   font-size: 0.9rem;
@@ -298,36 +303,6 @@ body,
   border-bottom: 5px solid var(--border);
   background-color: color-mix(in srgb, var(--bg-elevated) 85%, var(--border) 15%);
 }
-
-.category-section table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.9rem;
-}
-
-.category-section th,
-.category-section td {
-  padding: 0.6rem 0.9rem;
-  text-align: left;
-  border-bottom: 1px solid var(--border-soft);
-}
-
-.category-section th {
-  font-size: 0.9rem;
-  text-transform: capitalize;
-  letter-spacing: 0.05em;
-  color: var(--muted);
-  background-color: color-mix(in srgb, var(--bg-elevated) 80%, var(--border) 20%);
-}
-
-.category-section tbody tr:nth-child(odd) {
-  background-color: color-mix(in srgb, var(--bg-elevated) 94%, black 6%);
-}
-
-.category-section tbody tr:hover {
-  background-color: color-mix(in srgb, var(--bg-elevated) 92%, var(--accent) 8%);
-}
-*/
 
 .book-table {
   width: 100%;
@@ -361,6 +336,21 @@ body,
 .book-table tbody tr.is-priority {
   font-weight: 600;
   background-color: color-mix(in srgb, var(--bg-elevated) 88%, var(--accent) 12%);
+}
+
+.priority-star {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.35rem;
+  color: var(--accent);
+}
+
+.priority-star svg {
+  width: 0.9rem;
+  height: 0.9rem;
+  display: block;
+  fill: currentColor;
 }
 
 .footer {
@@ -494,9 +484,6 @@ button[disabled] {
 }
 
 @media (min-width: 640px) {
-  /* Desktop-specific collection/wishlist toggle styles kept for
-     potential future reuse with a collection view. */
-  /*
   #view-select {
     position: absolute;
     opacity: 0;
@@ -534,5 +521,4 @@ button[disabled] {
     background-color: var(--accent);
     color: #ffffff;
   }
-  */
 }

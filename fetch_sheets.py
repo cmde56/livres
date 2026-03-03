@@ -57,8 +57,52 @@ def fetch_sheet_values(
             {
                 "author": row_dict.get("Auteur", ""),
                 "title": row_dict.get("Titre", ""),
-                "location": row_dict.get("Format/Provenance", ""),
+                # New separate fields from columns C and D
+                "provenance": row_dict.get("Provenance", ""),
+                "format": row_dict.get("Format", ""),
+                # Keep priority flag
                 "priority": priority,
+            }
+        )
+
+    return mapped_rows
+
+
+def fetch_lus_values(
+    service, spreadsheet_id: str, range_name: str
+) -> List[Dict[str, Any]]:
+    """Fetch the "lus" sheet and map to a minimal structure.
+
+    The sheet is expected to expose at least two headers: "Auteur" and "Titre".
+    """
+
+    result = (
+        service.spreadsheets()
+        .values()
+        .get(spreadsheetId=spreadsheet_id, range=range_name)
+        .execute()
+    )
+    values = result.get("values", [])
+    if not values:
+        return []
+
+    headers = values[0]
+    rows = values[1:]
+
+    mapped_rows: List[Dict[str, Any]] = []
+    for row in rows:
+        if not any(cell.strip() for cell in row if isinstance(cell, str)):
+            continue
+
+        row_dict = {
+            header: row[idx] if idx < len(row) else ""
+            for idx, header in enumerate(headers)
+        }
+
+        mapped_rows.append(
+            {
+                "author": row_dict.get("Auteur", ""),
+                "title": row_dict.get("Titre", ""),
             }
         )
 
@@ -80,10 +124,14 @@ def main() -> None:
     service = build("sheets", "v4", credentials=creds, cache_discovery=False)
 
     # collection = fetch_sheet_values(service, spreadsheet_id, "collection!A:C")
-    wantlist = fetch_sheet_values(service, spreadsheet_id, "wishlist!A:D")
+    # Wishlist now uses separate Provenance (C) and Format (D) columns,
+    # and may also include a Prioritaire column after that.
+    wantlist = fetch_sheet_values(service, spreadsheet_id, "wishlist!A:E")
+    lus = fetch_lus_values(service, spreadsheet_id, "lus!A:B")
 
     # write_json("collection.json", collection)
     write_json("wantlist.json", wantlist)
+    write_json("lus.json", lus)
 
 
 if __name__ == "__main__":

@@ -25,16 +25,17 @@
         </span>
       </h1>
     </div>
-    <!-- <div class="top-bar-right"> -->
-    <!--   <div class="view-switch"> -->
-    <!--     <span class="view-switch-label">View</span> -->
-    <!--     <select id="view-select"> -->
-    <!--       <option value="wantlist">Wishlist</option> -->
-    <!--     </select> -->
-    <!--     <div class="view-toggle-desktop" aria-hidden="true"> -->
-    <!--       <button type="button" class="view-toggle-button" data-view="wantlist">Wishlist</button> -->
-    <!--     </div> -->
-    <!--   </div> -->
+    <div class="top-bar-right">
+      <div class="view-switch">
+        <select id="view-select">
+          <option value="wantlist">Wishlist</option>
+          <option value="lus">Lus</option>
+        </select>
+        <div class="view-toggle-desktop" aria-hidden="true">
+          <button type="button" class="view-toggle-button" data-view="wantlist">Wishlist</button>
+          <button type="button" class="view-toggle-button" data-view="lus">Lus</button>
+        </div>
+      </div>
       <button id="theme-toggle" type="button">
         <span class="theme-toggle-icon" aria-hidden="true">
           <svg class="theme-toggle-icon-svg theme-icon-sun" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,9 +76,9 @@
     </section>
 
     <section class="table-wrapper">
-      <div id="tables-container" class="tables-container" aria-live="polite">
-        <p class="placeholder">No data yet. Add collection.json and wantlist.json to this folder.</p>
-      </div>
+       <div id="tables-container" class="tables-container" aria-live="polite">
+         <p class="placeholder">No data yet. Add wantlist.json and lus.json to this folder.</p>
+       </div>
     </section>
 
     <footer class="footer">
