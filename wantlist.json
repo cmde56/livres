@@ -1,10 +1,10 @@
 [
   {
     "author": "Adler Olsen J",
-    "format": "",
+    "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": ""
+    "title": "Les morts ne chantent pas "
   },
   {
     "author": "Bal Olivier",
@@ -64,10 +64,10 @@
   },
   {
     "author": "Di Fulvio L",
-    "format": "",
+    "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": "L‘empailleur"
+    "title": "L‘empailleur (en français, très difficile à trouver"
   },
   {
     "author": "Ellory EJ",
@@ -109,7 +109,7 @@
     "format": "",
     "priority": false,
     "provenance": "",
-    "title": "(« 13 jours » lu)"
+    "title": " Blood and bone (si en français)"
   },
   {
     "author": "Giebel K",
@@ -151,7 +151,7 @@
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": "Les morsures du silence (Prix maison de la presse 2025, présent sur le pôle)"
+    "title": "Les morsures du silence "
   },
   {
     "author": "Harding L",
@@ -159,20 +159,6 @@
     "priority": false,
     "provenance": "",
     "title": "Abattage"
-  },
-  {
-    "author": "Higgins Clark M",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Un cri dans la nuit"
-  },
-  {
-    "author": "Higgins Clark M",
-    "format": "",
-    "priority": false,
-    "provenance": "",
-    "title": "La nuit du renard, La clinique du Dr H"
   },
   {
     "author": "Indridason A",
@@ -210,32 +196,11 @@
     "title": "Lettre à mes filles, entre terreur et espoir, les combats de la 1ère femme politique afghane"
   },
   {
-    "author": "Läckberg C.",
-    "format": "",
-    "priority": false,
-    "provenance": "",
-    "title": ""
-  },
-  {
-    "author": "Leclerc R.",
-    "format": "livre de poche",
-    "priority": false,
-    "provenance": "",
-    "title": "Les Cayrol"
-  },
-  {
     "author": "Legardiner Gilles",
     "format": "",
     "priority": false,
     "provenance": "",
     "title": "Ça peut pas rater, L’exil des anges"
-  },
-  {
-    "author": "Loubry J",
-    "format": "",
-    "priority": false,
-    "provenance": "",
-    "title": ""
   },
   {
     "author": "MacInnerney Jay",
@@ -263,7 +228,7 @@
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": "Lucia, Les effacées, H (Servaz)"
+    "title": "Les effacées, H (Servaz)"
   },
   {
     "author": "Moberg W.",
@@ -273,25 +238,25 @@
     "title": "La saga des émigrants (4 volumes)"
   },
   {
-    "author": "Norek O",
-    "format": "",
-    "priority": false,
-    "provenance": "",
-    "title": ""
-  },
-  {
     "author": "Pinborough S",
     "format": "",
     "priority": false,
     "provenance": "médiathèque",
-    "title": "Insomnia (M Meucon)"
+    "title": "Insomnia "
   },
   {
     "author": "Pobi R",
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": "Les innocents et voir suite « Lucas Page »"
+    "title": "Do not Harm (en français"
+  },
+  {
+    "author": "Pobi R",
+    "format": "livre de poche",
+    "priority": false,
+    "provenance": "",
+    "title": "Les innocents "
   },
   {
     "author": "Pulixi P",
@@ -344,10 +309,10 @@
   },
   {
     "author": "Sire C",
-    "format": "",
+    "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": ""
+    "title": "Avec tes yeux"
   },
   {
     "author": "Smith W.",
@@ -382,28 +347,21 @@
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": "*La forêt des ombres, L’anneau de Mobius, Vertiges, Puzzle, *Voir aussi suite Sharko/Hennebelle après La faille + le début de la série non lus : Train d’enfer pour ange rouge, La chambre des morts, Deuil de miel, (tous les 3 en LP)"
+    "title": "Les one shot: La forêt des ombres, L’anneau de Mobius, Vertiges, Puzzle,"
   },
   {
     "author": "Thilliez F",
     "format": "livre de poche",
     "priority": true,
     "provenance": "",
-    "title": ""
+    "title": "Dans la série Sharko-Hennebelle : Train d’enfer pour ange rouge, La chambre des morts, Deuil de miel,"
   },
   {
     "author": "Tremblay d'Essiambre",
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": "Une simple histoire d’amour (LP)"
-  },
-  {
-    "author": "Tremblay d'Essiambre",
-    "format": "",
-    "priority": false,
-    "provenance": "",
-    "title": "Histoire de femme (4 tomes)"
+    "title": "Une simple histoire d’amour , Histoire de femme (4 tomes)"
   },
   {
     "author": "Van Der Vlugt S",
@@ -425,19 +383,5 @@
     "priority": false,
     "provenance": "médiathèque",
     "title": "Destinée suédoise (4 tomes)"
-  },
-  {
-    "author": "Willocks T",
-    "format": "",
-    "priority": false,
-    "provenance": "",
-    "title": ""
-  },
-  {
-    "author": "Wood B.",
-    "format": "livre de poche",
-    "priority": false,
-    "provenance": "",
-    "title": "Les vierges du paradis"
   }
 ]
