@@ -61,6 +61,20 @@
     return trimmed;
   }
 
+  function countTitlesInString(title) {
+    if (!title) return 0;
+    return String(title)
+      .split(',')
+      .map((part) => part.trim())
+      .filter((part) => part.length > 0)
+      .length;
+  }
+
+  function countTitlesInItems(items) {
+    if (!items || !items.length) return 0;
+    return items.reduce((sum, item) => sum + countTitlesInString(item.title), 0);
+  }
+
   function setView(view) {
     const nextView = view === 'lus' ? 'lus' : 'wantlist';
     state.currentView = nextView;
@@ -249,14 +263,14 @@
 
     if (!q) {
       if (countEl) {
-        const n = base.length;
+        const totalTitles = countTitlesInItems(base);
         let label;
         if (state.currentView === 'lus') {
-          label = n === 1 ? 'livre lu' : 'livres lus';
+          label = totalTitles === 1 ? 'livre lu' : 'livres lus';
         } else {
-          label = n === 1 ? 'livre' : 'livres';
+          label = totalTitles === 1 ? 'livre' : 'livres';
         }
-        countEl.textContent = `${n} ${label}`;
+        countEl.textContent = `${totalTitles} ${label}`;
       }
       return base;
     }
@@ -275,14 +289,14 @@
     });
 
     if (countEl) {
-      const n = filtered.length;
+      const totalTitles = countTitlesInItems(filtered);
       let label;
       if (state.currentView === 'lus') {
-        label = n === 1 ? 'livre lu' : 'livres lus';
+        label = totalTitles === 1 ? 'livre lu' : 'livres lus';
       } else {
-        label = n === 1 ? 'livre' : 'livres';
+        label = totalTitles === 1 ? 'livre' : 'livres';
       }
-      countEl.textContent = `${n} ${label} found`;
+      countEl.textContent = `${totalTitles} ${label} found`;
     }
 
     return filtered;

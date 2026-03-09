@@ -1,6 +1,2290 @@
 [
   {
-    "author": "Orwell G",
-    "title": "1984"
+    "author": "Aaron S",
+    "title": "Le non de Klara"
+  },
+  {
+    "author": "Abel Q",
+    "title": "Cabane"
+  },
+  {
+    "author": "Absire A",
+    "title": "L’égal de Dieu"
+  },
+  {
+    "author": "Adam O",
+    "title": "Des vents contraires"
+  },
+  {
+    "author": "Adler Olsen J",
+    "title": "Toute la série « Département V » (jusqu’à 7M2 Inclus)"
+  },
+  {
+    "author": "Agrech D",
+    "title": "Deux mille kilomètres avec une balle dans le cœur"
+  },
+  {
+    "author": "Alia J",
+    "title": "Quand le soleil était chaud"
+  },
+  {
+    "author": "Allegri A",
+    "title": "La maison aux nouveau-nés"
+  },
+  {
+    "author": "Amadou J",
+    "title": "Les yeux au fond de la France"
+  },
+  {
+    "author": "Anderman J",
+    "title": "Le souffle coupé"
+  },
+  {
+    "author": "Andrews V C",
+    "title": "Les enfants des collines, Le labyrinthe des songes, Le visage du paradis, L’ange de la nuit, Cœurs maudits"
+  },
+  {
+    "author": "Anglade J",
+    "title": "Les ventres jaunes"
+  },
+  {
+    "author": "Angot C",
+    "title": "Les petits"
+  },
+  {
+    "author": "Anonyme",
+    "title": "L’herbe bleue"
+  },
+  {
+    "author": "Archer J",
+    "title": "Kane et Abel"
+  },
+  {
+    "author": "Armand MP",
+    "title": "La poussière des corons"
+  },
+  {
+    "author": "Arnothy C",
+    "title": "Un type merveilleux, Voyage de noces"
+  },
+  {
+    "author": "Aubenas F",
+    "title": "Le quai de Ouistreham"
+  },
+  {
+    "author": "Auque R",
+    "title": "Un otage à Beyrouth"
+  },
+  {
+    "author": "Auzière T",
+    "title": "Assises"
+  },
+  {
+    "author": "Avril N",
+    "title": "Jeanne"
+  },
+  {
+    "author": "Aylmer-Roubenne M",
+    "title": "J’ai donné la vie dans un camp de la mort"
+  },
+  {
+    "author": "Azdine A et Salines G",
+    "title": "Il nous reste les mots"
+  },
+  {
+    "author": "Bach R",
+    "title": "Un pont sur l’infini, Illusions (Le Messie récalcitrant)"
+  },
+  {
+    "author": "Badinter R-Cotte B-Pellet A",
+    "title": "Vladimir Poutine l’accusation"
+  },
+  {
+    "author": "Bal Olivier",
+    "title": "La meute, Malaven"
+  },
+  {
+    "author": "Ball D",
+    "title": "La prisonnière de Malte, Pour l’amour d’un enfant"
+  },
+  {
+    "author": "Bannel C",
+    "title": ""
+  },
+  {
+    "author": "Bao Lord B",
+    "title": "Lune de printemps"
+  },
+  {
+    "author": "Barbara",
+    "title": "Il était un piano noir…"
+  },
+  {
+    "author": "Bardon C",
+    "title": ""
+  },
+  {
+    "author": "Barker P",
+    "title": ""
+  },
+  {
+    "author": "Barthel J",
+    "title": "Mademoiselle de Pâquelin"
+  },
+  {
+    "author": "Bauby JD",
+    "title": "Le scaphandre et le papillon"
+  },
+  {
+    "author": "Beaussault M",
+    "title": "Les saules"
+  },
+  {
+    "author": "Becker E",
+    "title": "La maison"
+  },
+  {
+    "author": "Bédarida C",
+    "title": "L’écolle qui décolle"
+  },
+  {
+    "author": "Belletto R",
+    "title": "L’enfer"
+  },
+  {
+    "author": "Bellemare P",
+    "title": "Journées d’enfer"
+  },
+  {
+    "author": "Benameur J",
+    "title": "Les demeurées"
+  },
+  {
+    "author": "Benjamin M",
+    "title": "Les enfants du blizzard"
+  },
+  {
+    "author": "Ben Jelloun T",
+    "title": "Jour de silence à Tanger, Le racisme expliqué à ma fille"
+  },
+  {
+    "author": "Benmalek A",
+    "title": "Irina, un opéra russe (-)"
+  },
+  {
+    "author": "Benoit P",
+    "title": "L’Atlantide"
+  },
+  {
+    "author": "Benton Frank D",
+    "title": "Plantation"
+  },
+  {
+    "author": "Benzoni J",
+    "title": "Le sang des Koenigsmark (tomes 1 et 2), Le temps des poisons (tomes 1 et 2),Les dames du Méditerranée Express (Intégrale), Le jeu de l’amour et de la mort(Intégrale), Les émeraudes du prophète"
+  },
+  {
+    "author": "Bequié JM",
+    "title": "Charles"
+  },
+  {
+    "author": "Berest C",
+    "title": "L’épaisseur d’un cheveu, La chair de autres"
+  },
+  {
+    "author": "Berger Y",
+    "title": "Le sud"
+  },
+  {
+    "author": "Bernadac C",
+    "title": "Le camp des femmes"
+  },
+  {
+    "author": "Besson P",
+    "title": "Ceci n’est pas un fait divers, Vous parler de mon fils"
+  },
+  {
+    "author": "Betancourt I",
+    "title": "Même le silence a une fin"
+  },
+  {
+    "author": "Bettelheim B",
+    "title": "Survivre"
+  },
+  {
+    "author": "Beuglet N",
+    "title": "Le cri"
+  },
+  {
+    "author": "Birger T",
+    "title": "La rage de survivre"
+  },
+  {
+    "author": "Birman C",
+    "title": "Au monde"
+  },
+  {
+    "author": "Bobin C",
+    "title": "L’homme-joie"
+  },
+  {
+    "author": "Bodard L",
+    "title": "Anne-Marie"
+  },
+  {
+    "author": "Bodinat De C",
+    "title": "Marâtre"
+  },
+  {
+    "author": "Boissard J",
+    "title": "L’esprit de famille (tomes 1 et 2"
+  },
+  {
+    "author": "Bohjalian C",
+    "title": "Sage-femme"
+  },
+  {
+    "author": "Bonnefoy M",
+    "title": "Le voyage d’Octavio"
+  },
+  {
+    "author": "Bonnivard C",
+    "title": "La vie explosée"
+  },
+  {
+    "author": "Bordier R",
+    "title": "La grande vie"
+  },
+  {
+    "author": "Borniche R",
+    "title": "Le boss"
+  },
+  {
+    "author": "Bortoli G",
+    "title": "La cour des grands"
+  },
+  {
+    "author": "Bourassa M",
+    "title": "Le maître des peines (tomes 1 à 3)"
+  },
+  {
+    "author": "Boudet P",
+    "title": "Ce combat n’est pas le tien"
+  },
+  {
+    "author": "Bourdieu P",
+    "title": "La misère du monde"
+  },
+  {
+    "author": "Bourdon JL",
+    "title": "Que le jour aille au diable"
+  },
+  {
+    "author": "Bourin J",
+    "title": "Les pérégrines, Les compagnons d’éternité"
+  },
+  {
+    "author": "Boyer F",
+    "title": "Des choses idiotes et douces"
+  },
+  {
+    "author": "Boyne J",
+    "title": "Les éléments"
+  },
+  {
+    "author": "Burgot M",
+    "title": "Loin de chez moi"
+  },
+  {
+    "author": "Bordaçarre O",
+    "title": "La disparition d’Hervé Snout"
+  },
+  {
+    "author": "Bourdin C",
+    "title": "Le fil"
+  },
+  {
+    "author": "Bréau A",
+    "title": "Les influentes"
+  },
+  {
+    "author": "Briskin J",
+    "title": "Paloverde, C’est écrit dans le ciel, Cœurs trahis"
+  },
+  {
+    "author": "Brown D",
+    "title": "Da vinci code, Anges et démons, Forteresse digitale, Le symbole perdu"
+  },
+  {
+    "author": "Bryan H",
+    "title": "Les mariés du blitz"
+  },
+  {
+    "author": "Buck P",
+    "title": "Un cœur fier, Impératrice de Chine, Pivoine, Vent d’est-vent d’ouest"
+  },
+  {
+    "author": "Buffet A",
+    "title": "D’amour et d’eau fraîche"
+  },
+  {
+    "author": "Burgos R",
+    "title": "Moi, Rigoberta Menchu"
+  },
+  {
+    "author": "Burgot M",
+    "title": "Loin de chez moi"
+  },
+  {
+    "author": "Cabré J",
+    "title": "Confiteor"
+  },
+  {
+    "author": "Cabrel U",
+    "title": "Boza !"
+  },
+  {
+    "author": "Caldwell",
+    "title": "Le bâtard"
+  },
+  {
+    "author": "Camus a",
+    "title": "La peste, L’étranger"
+  },
+  {
+    "author": "Carrisi Donato",
+    "title": "Le cri du chuchoteur"
+  },
+  {
+    "author": "Castanet V",
+    "title": "Les fossoyeurs, Les ogres"
+  },
+  {
+    "author": "Cato N",
+    "title": "L’australienne"
+  },
+  {
+    "author": "Catta E",
+    "title": "A quoi tu juges ?"
+  },
+  {
+    "author": "Chabanis C",
+    "title": "Il était une fois l’enfant"
+  },
+  {
+    "author": "Chadwick E",
+    "title": "Aliénor d’Aquitaine (L’été d’une reine, L’automne d’une reine, L’hiver d’une reine)"
+  },
+  {
+    "author": "Chaine c",
+    "title": "Le voyage sans retour des enfants d’Izieu"
+  },
+  {
+    "author": "Chalandon S",
+    "title": "Le 4ème mur"
+  },
+  {
+    "author": "Chalumeau A",
+    "title": "Les vivants"
+  },
+  {
+    "author": "Chamberlain D",
+    "title": "Confessions d’une sage-femme"
+  },
+  {
+    "author": "Chattam M",
+    "title": "L’appel du néant, La constance du prédateur, La conjuration primitive, La patience du diable, In ténébris, Le requiem des abysses, Leviathan"
+  },
+  {
+    "author": "Chaix M",
+    "title": "Juliette, chemin des cerisiers"
+  },
+  {
+    "author": "Charian A",
+    "title": "Une bonne épouse indienne"
+  },
+  {
+    "author": "Charland JP",
+    "title": "Félicité (tomes 1 et 2), Les portes de Québec (tomes 1 à 4)"
+  },
+  {
+    "author": "Chase L",
+    "title": "L’honneur d’une femme"
+  },
+  {
+    "author": "Châtelet N",
+    "title": "La courte échelle"
+  },
+  {
+    "author": "Chedid A",
+    "title": "L’enfant multiple, Lucy la femme verticale"
+  },
+  {
+    "author": "Chemin A- Etchegoin MF",
+    "title": "Raoult, une folie française"
+  },
+  {
+    "author": "Chesnais P",
+    "title": "Il est où, Ferdinand ?"
+  },
+  {
+    "author": "Chow Ching L",
+    "title": "Le palanquin des larmes"
+  },
+  {
+    "author": "Clancier G E",
+    "title": "Une ombre sarrasine"
+  },
+  {
+    "author": "Clarke C A",
+    "title": "2010, odyssée deux"
+  },
+  {
+    "author": "Clavel B",
+    "title": "Harricana"
+  },
+  {
+    "author": "Cleave P",
+    "title": "Un employé modèle"
+  },
+  {
+    "author": "Clément C",
+    "title": "La valse inachevée, La senora"
+  },
+  {
+    "author": "Coben H",
+    "title": "Une chance de trop, Dans les bois"
+  },
+  {
+    "author": "Cobert H",
+    "title": "Le rouge et le blanc"
+  },
+  {
+    "author": "Coetzee JM",
+    "title": "Disgrâce"
+  },
+  {
+    "author": "Cojean A",
+    "title": "Je ne serais pas arrivée là si..."
+  },
+  {
+    "author": "Collette S",
+    "title": "On était des loups"
+  },
+  {
+    "author": "Collin P",
+    "title": "Le barman du Ritz"
+  },
+  {
+    "author": "Conchon G",
+    "title": "Le bel avenir"
+  },
+  {
+    "author": "Cook R",
+    "title": "Fièvre, Avec intention de nuire, Vengeance aveugle"
+  },
+  {
+    "author": "Cordelier J",
+    "title": "La dérobade"
+  },
+  {
+    "author": "Coulonges H",
+    "title": "A l’approche d’un soir du monde, La marche hongroise"
+  },
+  {
+    "author": "Coulonges G",
+    "title": "Les blés deviennent paille"
+  },
+  {
+    "author": "Cressanges J",
+    "title": "Seules"
+  },
+  {
+    "author": "Cronin A-J",
+    "title": "Kaléidoscope"
+  },
+  {
+    "author": "Cunningham",
+    "title": "De chair et de sang"
+  },
+  {
+    "author": "Cussler C",
+    "title": "Sahara"
+  },
+  {
+    "author": "Cyrulnik B",
+    "title": "Mourir de dire..."
+  },
+  {
+    "author": "Da Costa M",
+    "title": "Tenir debout, Tout le bleu du ciel"
+  },
+  {
+    "author": "Dague JC",
+    "title": "Le dénommé"
+  },
+  {
+    "author": "D’Aillon J",
+    "title": "La quête du trésor du temple"
+  },
+  {
+    "author": "Da Lage, Grzybek, Schreiber T",
+    "title": "Le secrétaire général"
+  },
+  {
+    "author": "Dalaï-Lama",
+    "title": "Transformer son esprit"
+  },
+  {
+    "author": "Daré A",
+    "title": "La fille qui ne voulait pas se taire (-)"
+  },
+  {
+    "author": "Daridan J",
+    "title": "De lincoln à Johnson noirs et blancs"
+  },
+  {
+    "author": "D’Astier de la Vigerie M",
+    "title": "Le tourment et la grâce"
+  },
+  {
+    "author": "Davis C",
+    "title": "Philadelphia"
+  },
+  {
+    "author": "Davis F",
+    "title": "Les livres disparus de la 5ème avenue"
+  },
+  {
+    "author": "De Castro E",
+    "title": "Les bâtards du soleil"
+  },
+  {
+    "author": "Degardin M",
+    "title": "Les mandragores"
+  },
+  {
+    "author": "Deghelt F",
+    "title": "La garnd-mère de Jade"
+  },
+  {
+    "author": "Dejean C",
+    "title": "Le cheptel, Matrices, Châtiment, La mue"
+  },
+  {
+    "author": "Delaflotte-Mehdevi A",
+    "title": "La relieuse du gué, Le portefeuille rouge"
+  },
+  {
+    "author": "Del Arbol V",
+    "title": "Toutes les vagues de l’océan"
+  },
+  {
+    "author": "De La Roche M",
+    "title": "Jalna ( volumes 1 à 16)"
+  },
+  {
+    "author": "Delcroix A",
+    "title": "Mémoires d’un expert psychiatre"
+  },
+  {
+    "author": "Delzongle S",
+    "title": "Apnée, Récidive"
+  },
+  {
+    "author": "Deniau JF",
+    "title": "Tadjoura"
+  },
+  {
+    "author": "Denker H",
+    "title": "Le procès du docteur Forrester, faux diagnostic"
+  },
+  {
+    "author": "Denuzière M",
+    "title": "Louisiane, Fausse rivière, Bagatelle, Les trois-Chênes, L’adieu au sud"
+  },
+  {
+    "author": "Des Cars G",
+    "title": "L’impure, La corruptrice, La maudite, Le grand monde (tomes 1 et 2), Le faiseur de morts"
+  },
+  {
+    "author": "Desforges R",
+    "title": "La bicyclette bleue, 101 avenue Henri-Martin, Le diable en rit encore, Les enfants de Blanche"
+  },
+  {
+    "author": "Des Isnard A et Zuber T",
+    "title": "L’open space m’a tuer"
+  },
+  {
+    "author": "D’Esteinne d’Orves n",
+    "title": "Les derniers jours de Paris"
+  },
+  {
+    "author": "Deville P",
+    "title": "Peste et chloléra"
+  },
+  {
+    "author": "Desproges P",
+    "title": "Chroniques de la haine ordinaire"
+  },
+  {
+    "author": "D’Estienne d’Orves N",
+    "title": "Les orphelins du mal"
+  },
+  {
+    "author": "De Saint-Andé A",
+    "title": "En avant, route !"
+  },
+  {
+    "author": "De Vigan D",
+    "title": "Les heures souterraines"
+  },
+  {
+    "author": "Dickens C",
+    "title": "Les grandes espérances"
+  },
+  {
+    "author": "Dicker J",
+    "title": "La vérité sur l’affaire Harry Québert, Un animal sauvage,"
+  },
+  {
+    "author": "Di Fulvio L",
+    "title": "Le gang des rêves, Les enfants de Venise, Le soleil des rebelles, Les prisonniers de la liberté"
+  },
+  {
+    "author": "Dizdarevic Z",
+    "title": "Journal de guerre"
+  },
+  {
+    "author": "Diwo J",
+    "title": "La calèche"
+  },
+  {
+    "author": "Donnely J",
+    "title": "L’ange de Whitechapel"
+  },
+  {
+    "author": "Dorchamps O",
+    "title": "Fuir l’Eden"
+  },
+  {
+    "author": "D’Ormesson J",
+    "title": "Le vent du soir"
+  },
+  {
+    "author": "Dosa D",
+    "title": "Un chat médium nommé Oscar"
+  },
+  {
+    "author": "Dreyfus L et Casanova B",
+    "title": "Chroniques d’une prise d’otages"
+  },
+  {
+    "author": "Drouin D",
+    "title": "De mères en filles (tomes 1 à 4)"
+  },
+  {
+    "author": "Druon M",
+    "title": "Les rois maudits (tomes 1 à 7), Les grandes familles"
+  },
+  {
+    "author": "Dubois a",
+    "title": "Service des disparus"
+  },
+  {
+    "author": "Dubois M",
+    "title": "Meuf, guide pour nos filles"
+  },
+  {
+    "author": "Du Maurier D",
+    "title": "Rebecca"
+  },
+  {
+    "author": "Dunnett",
+    "title": "Le marchand de Bruges"
+  },
+  {
+    "author": "Duperey A",
+    "title": "Le voile noir"
+  },
+  {
+    "author": "Dupont A",
+    "title": "N’oublie pas pourquoi tu danses"
+  },
+  {
+    "author": "Dupuy M B",
+    "title": "Abigaël (tomes 1 à 6), Les fiançés du Rhin, Angélina (tomes 1 à 3)"
+  },
+  {
+    "author": "Duquesne J",
+    "title": "Maria Vadamme"
+  },
+  {
+    "author": "Duras M",
+    "title": "L’amant"
+  },
+  {
+    "author": "Duroy L",
+    "title": "Le chagrin"
+  },
+  {
+    "author": "Duve P",
+    "title": "Cargo vie"
+  },
+  {
+    "author": "Edvardsson M.T",
+    "title": "Une famille presque normale"
+  },
+  {
+    "author": "Edwards K",
+    "title": "L’enfant de tous les silences"
+  },
+  {
+    "author": "Ellory EJ",
+    "title": "Les assassins"
+  },
+  {
+    "author": "Erlih C",
+    "title": "Embrasser Kaboul"
+  },
+  {
+    "author": "Ernoult-Delcourt A",
+    "title": "Apprivoiser l’absence"
+  },
+  {
+    "author": "Etienne J L",
+    "title": "Transantartica"
+  },
+  {
+    "author": "Expert J",
+    "title": "Adieu"
+  },
+  {
+    "author": "Fabre J",
+    "title": "Le scarabée"
+  },
+  {
+    "author": "Failler J",
+    "title": "Forces noires, Couleur canari, La variée était en noir, Te souviens-tu de Souliko’o (tomes 1 et 2)"
+  },
+  {
+    "author": "Fajardie F H",
+    "title": "La manière douce"
+  },
+  {
+    "author": "Ferey C",
+    "title": "Mapuche, Zulu"
+  },
+  {
+    "author": "Fergus J",
+    "title": "1000 femmes blanches, Marie-Blanche"
+  },
+  {
+    "author": "Ferrand F",
+    "title": "La cour des dames (tomes 1 à 3)"
+  },
+  {
+    "author": "Ferrandiz JF",
+    "title": "La terre maudite"
+  },
+  {
+    "author": "Ferrai J",
+    "title": "Le sermon sur la chute de Rome"
+  },
+  {
+    "author": "Filipovic Z",
+    "title": "Le journal de Zlata"
+  },
+  {
+    "author": "Finstead S",
+    "title": "La maîtresse du diable"
+  },
+  {
+    "author": "Fischer ML",
+    "title": "Le fruit du péché, En notre âme et conscience"
+  },
+  {
+    "author": "Fleming L",
+    "title": "L’enfant du Titanic"
+  },
+  {
+    "author": "Follet K",
+    "title": "La marque de Windfield, Le troisième jumeau, Code zéro, Apocalypse sur commande, Le réseau Corneille, Le pays de la liberté, L’arme à l’œil,toute la série « Les piliers de la terre », la trilogie « Le siècle », Pour rien au monde"
+  },
+  {
+    "author": "Fontaine F",
+    "title": "Blandine de Lyon"
+  },
+  {
+    "author": "Forlot L",
+    "title": "Les tubercules du bonheur (tomes 1 et 2)"
+  },
+  {
+    "author": "Fouassier E",
+    "title": "Le bureau des affaires occultes"
+  },
+  {
+    "author": "Fournier A",
+    "title": "Le grand Meaulnes"
+  },
+  {
+    "author": "Fournier J L",
+    "title": "Où on va, Papa ?, Le CV de Dieu, Satané Dieu"
+  },
+  {
+    "author": "Franch N",
+    "title": "Charlie n’est pas rentrée"
+  },
+  {
+    "author": "Franck et Vautrin",
+    "title": "La dame de Berlin, Le temps des cerises"
+  },
+  {
+    "author": "Frank A",
+    "title": "Journal"
+  },
+  {
+    "author": "Fraser E",
+    "title": "Quand soufflera le vent du doute"
+  },
+  {
+    "author": "French M",
+    "title": "Les bons sentiments"
+  },
+  {
+    "author": "French N",
+    "title": "Feu de glace, Au pays des vivants"
+  },
+  {
+    "author": "French Tana",
+    "title": ""
+  },
+  {
+    "author": "Frydman R",
+    "title": "Lettre à une mère"
+  },
+  {
+    "author": "Fynn",
+    "title": "Anna et Mister God"
+  },
+  {
+    "author": "Gabaldon D",
+    "title": "Saga « Le chardon et le tartan » (tomes 1 à 9)"
+  },
+  {
+    "author": "Gaglé R",
+    "title": "Waringham (livres 1 à 3)"
+  },
+  {
+    "author": "Gagnon-Thibaudeau M",
+    "title": "Pure laine, pur coton"
+  },
+  {
+    "author": "Gandhi et M Luther-King",
+    "title": "Des combats non-violents"
+  },
+  {
+    "author": "Gardner L",
+    "title": "Dernière soirée"
+  },
+  {
+    "author": "Garoche S",
+    "title": "Quand la vie tutoie la mort"
+  },
+  {
+    "author": "Gavalda A",
+    "title": "Ensemble, c’est tout, L’échappée belle"
+  },
+  {
+    "author": "Genegaux M",
+    "title": "Femmes en colère"
+  },
+  {
+    "author": "Genet J",
+    "title": "Miracle de la rose"
+  },
+  {
+    "author": "Genevoix M",
+    "title": "Ceux de 14"
+  },
+  {
+    "author": "Georgy G",
+    "title": "La folle avoine"
+  },
+  {
+    "author": "Giacometti Ravenne",
+    "title": "La croix des assassins"
+  },
+  {
+    "author": "Giambanco Valentina",
+    "title": "13 jours"
+  },
+  {
+    "author": "Giebel K",
+    "title": "Toutes blessent la dernière tue, Meurtre pour rédemption,"
+  },
+  {
+    "author": "Gilbert G",
+    "title": "La rue est mon église"
+  },
+  {
+    "author": "Gildiner C",
+    "title": "On peut se remettre de tout"
+  },
+  {
+    "author": "Gilman D",
+    "title": "La captive du désert"
+  },
+  {
+    "author": "Golden A",
+    "title": "Geisha"
+  },
+  {
+    "author": "Gonzalez R",
+    "title": ""
+  },
+  {
+    "author": "Gordon N",
+    "title": "L’hôpital du soupçon"
+  },
+  {
+    "author": "Gougaud H",
+    "title": "Les sept plumes de l’aigle"
+  },
+  {
+    "author": "Goyet M",
+    "title": "Jeu cruel (-)"
+  },
+  {
+    "author": "Gran I",
+    "title": "La revanche de Kevin"
+  },
+  {
+    "author": "Grange Jean-Christophe",
+    "title": "Le serment des limbes, Le passager, Miserere"
+  },
+  {
+    "author": "Gray M",
+    "title": "Au nom de tous les miens"
+  },
+  {
+    "author": "Grebe C",
+    "title": "L’énigme de la Stuga, L’archipel des larmes, Un cri sous la glace, L’horizon d’une nuit, Le journal de ma disparition"
+  },
+  {
+    "author": "Green Emma",
+    "title": ""
+  },
+  {
+    "author": "Green J",
+    "title": "Mille chemins ouverts, Les pays lointains"
+  },
+  {
+    "author": "Grisham J",
+    "title": "Le couloir de la mort"
+  },
+  {
+    "author": "Groult B",
+    "title": "Ainsi soit-elle, Les vaisseaux du coeur, Les trois quart du temps"
+  },
+  {
+    "author": "Grumberg JC",
+    "title": "Quand la terre était plate"
+  },
+  {
+    "author": "Guérin F",
+    "title": "La souris qui voulait manger l’ogre"
+  },
+  {
+    "author": "Guillon J",
+    "title": "Cet enfant qui se drogue, c’est le mien"
+  },
+  {
+    "author": "Guilloux L",
+    "title": "La maison du peuple"
+  },
+  {
+    "author": "Guinzbourg E S",
+    "title": "Le ciel de la Kolyma"
+  },
+  {
+    "author": "Gurnah A",
+    "title": "Les vies d’après"
+  },
+  {
+    "author": "Hacikyan A J, Soucy J Y",
+    "title": "Un été sans aube"
+  },
+  {
+    "author": "Haley A",
+    "title": "Racines"
+  },
+  {
+    "author": "Haley A et Stevens D",
+    "title": "Queen"
+  },
+  {
+    "author": "Hannah K",
+    "title": "Le chant des oubliées"
+  },
+  {
+    "author": "Harding L",
+    "title": ""
+  },
+  {
+    "author": "Harding P",
+    "title": "Cet autre éden (-)"
+  },
+  {
+    "author": "Harr J",
+    "title": "Préjudice"
+  },
+  {
+    "author": "Hasan S",
+    "title": "Ennemie en Terre Promise"
+  },
+  {
+    "author": "Hawkins P",
+    "title": "La fille du train"
+  },
+  {
+    "author": "Hayder M",
+    "title": "Birdman"
+  },
+  {
+    "author": "Hébrard F",
+    "title": "Le mois de septembre"
+  },
+  {
+    "author": "Helm S",
+    "title": "Si c’est une femme"
+  },
+  {
+    "author": "Hentry-Pacaud M",
+    "title": "Les naufragées"
+  },
+  {
+    "author": "Hervey J",
+    "title": "Billie’s blues"
+  },
+  {
+    "author": "Hessel S",
+    "title": "Indignez-vous !"
+  },
+  {
+    "author": "Higgins Clark M",
+    "title": "La maison du guet, Ne pleure pas ma belle, Le fantôme de lady Margaret, Recherche jeune femme aimant danser, Nous n’irons plus au bois, Un jour tu verras…,Rien ne vaut la douceur du foyer, Tu m’appartiens, Une si longue nuit,La maison du clair de lune, Une seconde chance"
+  },
+  {
+    "author": "Hislop V",
+    "title": "Une dernière danse"
+  },
+  {
+    "author": "Hodgson A",
+    "title": "Le sourire du diable"
+  },
+  {
+    "author": "Hoffman A",
+    "title": "Un secret bien gardé"
+  },
+  {
+    "author": "Hollander-Lafon M",
+    "title": "Souffle sur la braise"
+  },
+  {
+    "author": "Hollinghurst A",
+    "title": "L’enfant de l’étranger"
+  },
+  {
+    "author": "Horowitz A",
+    "title": "La maison de soie"
+  },
+  {
+    "author": "Hosseini K",
+    "title": "Mille soleils splendides"
+  },
+  {
+    "author": "Hugo V",
+    "title": "La légende des siècles (tomes 1 et 2)"
+  },
+  {
+    "author": "Huguen H",
+    "title": "Dernier concert à Vannes"
+  },
+  {
+    "author": "Hulot N",
+    "title": "Les chemins de traverse"
+  },
+  {
+    "author": "Huong T H",
+    "title": "Terre des oublis"
+  },
+  {
+    "author": "Huxley A",
+    "title": "Le meilleur des mondes"
+  },
+  {
+    "author": "Indridason A",
+    "title": "Le duel"
+  },
+  {
+    "author": "Inokai Y",
+    "title": "Une simple intervention (-)"
+  },
+  {
+    "author": "Jablonca I",
+    "title": "Goldman, Laëtitia (-)"
+  },
+  {
+    "author": "Jack C",
+    "title": "Le procès de la momie, Le juge d’Egypte (tomes 1 à 3)"
+  },
+  {
+    "author": "Jacobs Anne",
+    "title": "La saga des Haller (-), Le rêve de Frieda"
+  },
+  {
+    "author": "Jagger B",
+    "title": "Les chemins de Maison-Haute, Le silex et la rose"
+  },
+  {
+    "author": "Jakes J",
+    "title": "Charleston"
+  },
+  {
+    "author": "James P D",
+    "title": "Les fils de l’homme"
+  },
+  {
+    "author": "Japp A",
+    "title": "La dame sans terre (tomes 1 à 4)"
+  },
+  {
+    "author": "Jacdin A",
+    "title": "Le zèbre"
+  },
+  {
+    "author": "Jelot-Blanc H et Huet J",
+    "title": "Bourvil"
+  },
+  {
+    "author": "Jema S M",
+    "title": "Les sarments d’hippocrate"
+  },
+  {
+    "author": "Jérome K J",
+    "title": "trois hommes dans un bateau"
+  },
+  {
+    "author": "Jian M",
+    "title": "Beijing coma"
+  },
+  {
+    "author": "Johansen I",
+    "title": "Les traits du mensonge, L’esclave du désert"
+  },
+  {
+    "author": "Jollien A",
+    "title": "Petit traité de l’abandon"
+  },
+  {
+    "author": "Joncour S",
+    "title": ""
+  },
+  {
+    "author": "Jourdan-Vezia JF",
+    "title": ""
+  },
+  {
+    "author": "Jyl L",
+    "title": "Le chemin des micocouliers"
+  },
+  {
+    "author": "Kadaré I",
+    "title": "Le palais des rêves"
+  },
+  {
+    "author": "Katzenbach J",
+    "title": "Faux coupable"
+  },
+  {
+    "author": "Kauffmann A",
+    "title": "La mythomane du Bataclan"
+  },
+  {
+    "author": "Kay Penman S",
+    "title": "Terre sainte"
+  },
+  {
+    "author": "Kelly M.H",
+    "title": "L’appel des colombes, Le lilas ne refleurit qu’après un hiver rigoureux"
+  },
+  {
+    "author": "Kelman J",
+    "title": "Un dernier baiser"
+  },
+  {
+    "author": "Kessel J",
+    "title": "Le lion"
+  },
+  {
+    "author": "King S",
+    "title": "22/11/63, Carrie, Dolores Claiborne, Minuit 4, Shining"
+  },
+  {
+    "author": "Koestler A",
+    "title": "Le zéro et l’infini"
+  },
+  {
+    "author": "Koofi F",
+    "title": "Lettres à mes filles"
+  },
+  {
+    "author": "Krantz J",
+    "title": "Rendez-vous"
+  },
+  {
+    "author": "Kristeva J",
+    "title": "Etrangers à nous-mêmes"
+  },
+  {
+    "author": "Kübler-Ross E",
+    "title": "La mort est une question vital"
+  },
+  {
+    "author": "Laberge M",
+    "title": "Le goût du bohneur (tomes 1 à 3)"
+  },
+  {
+    "author": "Laborde C",
+    "title": "L’os de Dionysos"
+  },
+  {
+    "author": "Laborit E",
+    "title": "Le cri de la mouette"
+  },
+  {
+    "author": "Läckberg C",
+    "title": "La princesse des glaces, Le prédicateur,Le tailleur de pierre, L’oiseau de mauvaise augure, L’enfant allemand, La sirène, Le gardien de phare, La faiseuse d’anges, Le dompteur de lion,La sorcière, Le nid du coucou, Cyanure"
+  },
+  {
+    "author": "Läckberg C et Fexeus H",
+    "title": "La boite à magie, Mirage (-)"
+  },
+  {
+    "author": "Lapierre A",
+    "title": "Belle Greene"
+  },
+  {
+    "author": "Lapierre D",
+    "title": "La cité de la joie, Plus grand que l’amour"
+  },
+  {
+    "author": "Lapierre D et Collins L",
+    "title": "Cette nuit la liberté"
+  },
+  {
+    "author": "Lark S",
+    "title": "Les rives de la terre lointaine"
+  },
+  {
+    "author": "Larsson S",
+    "title": "Millenium (tomes 1 à 3)"
+  },
+  {
+    "author": "Laurens C",
+    "title": "Ta promesse"
+  },
+  {
+    "author": "Laury H",
+    "title": "Tout est sous contrôle"
+  },
+  {
+    "author": "Le Bihan D",
+    "title": "Réussir"
+  },
+  {
+    "author": "Le Clezio J M G",
+    "title": "Le déluge"
+  },
+  {
+    "author": "le Corno M",
+    "title": "Un regard sur l’école"
+  },
+  {
+    "author": "Lefebure S",
+    "title": "Moi, une infirmère"
+  },
+  {
+    "author": "Legardinier G",
+    "title": "Complètement cramé, Nous étions les hommes"
+  },
+  {
+    "author": "Lehmann C",
+    "title": "La tribu"
+  },
+  {
+    "author": "Lehnisch E",
+    "title": "Consommateurs, ce que l’on vous cache"
+  },
+  {
+    "author": "Legg D",
+    "title": "Cabdriver"
+  },
+  {
+    "author": "Lemoine P",
+    "title": "Transmettre l’amour"
+  },
+  {
+    "author": "Le Quintrec C",
+    "title": "Les nuits du Parc-Lann"
+  },
+  {
+    "author": "Lessing D",
+    "title": "Le carnet d’or"
+  },
+  {
+    "author": "Levenson C B",
+    "title": "Le seigneur du Lotus Blanc"
+  },
+  {
+    "author": "Levi P",
+    "title": "Si c’est un homme"
+  },
+  {
+    "author": "Levy M",
+    "title": "Le premier jour, La première nuit, Mes amis mes amours"
+  },
+  {
+    "author": "Lewis R",
+    "title": "Pourquoi j’ai tué mon père"
+  },
+  {
+    "author": "Linarès LM",
+    "title": "Chaque jour a son secret"
+  },
+  {
+    "author": "Lierow D et B",
+    "title": "L’histoire de Dani"
+  },
+  {
+    "author": "Loevenbruck H",
+    "title": "La loup des cordeliers, Le mystère de la main rouge,"
+  },
+  {
+    "author": "Lorrain FG",
+    "title": "Scarlett"
+  },
+  {
+    "author": "Lottman E",
+    "title": "Les dames de Boston"
+  },
+  {
+    "author": "Louvet G",
+    "title": "Des choses qui se dansent"
+  },
+  {
+    "author": "Lowery B",
+    "title": "La cicatrice"
+  },
+  {
+    "author": "Ludlum R",
+    "title": "L’héritage Scarlatti"
+  },
+  {
+    "author": "Lynch P",
+    "title": "Le chant du prophète"
+  },
+  {
+    "author": "Lyskam M",
+    "title": "Le jour où l’Otan a frappé (-)"
+  },
+  {
+    "author": "Maalouf A",
+    "title": "Le rocher de Tanios, Les jardins de lumière"
+  },
+  {
+    "author": "MacCloskey D",
+    "title": "Moscou X (-)"
+  },
+  {
+    "author": "MaCCulloch A",
+    "title": "Asphyxie"
+  },
+  {
+    "author": "MacCullough C",
+    "title": "L’espoir est une terre lointaine, Les oiseaux se cachent pour mourir"
+  },
+  {
+    "author": "MacDaniel T",
+    "title": "Du côté sauvage"
+  },
+  {
+    "author": "MacDermid V",
+    "title": "Comme son ombre"
+  },
+  {
+    "author": "MacEwan I",
+    "title": "Expiation"
+  },
+  {
+    "author": "MacFadden F",
+    "title": "La psy, La prof"
+  },
+  {
+    "author": "MacLeod J L",
+    "title": "Les lumières d’Assam"
+  },
+  {
+    "author": "Madison S",
+    "title": "La couleur de l’espoir"
+  },
+  {
+    "author": "Mageau P A",
+    "title": "Un été d’enfer à Royan"
+  },
+  {
+    "author": "Mahmoody B",
+    "title": "Jamais sans ma fille"
+  },
+  {
+    "author": "Mahmoody M",
+    "title": "Vers la liberté"
+  },
+  {
+    "author": "Mailer N",
+    "title": "Les nus et les morts"
+  },
+  {
+    "author": "Mallet-Joris F",
+    "title": "Adriana Sposa"
+  },
+  {
+    "author": "Malraux A",
+    "title": "La condition humaine"
+  },
+  {
+    "author": "Mandela N",
+    "title": "Un long chemin vars la liberté"
+  },
+  {
+    "author": "Manevy J V",
+    "title": "J’ai vécu avec les SAMU"
+  },
+  {
+    "author": "Mankell H",
+    "title": "Avant le gel"
+  },
+  {
+    "author": "Mann T",
+    "title": "La mort à Venise"
+  },
+  {
+    "author": "Mansouri S",
+    "title": "Une femme sans écriture"
+  },
+  {
+    "author": "Marchal E",
+    "title": "Influenza (tomes 1 et 2), Le soleil sous la soie, La part de l’aube"
+  },
+  {
+    "author": "Marchand H",
+    "title": "Danser"
+  },
+  {
+    "author": "Marlantes K",
+    "title": "Le prix de la victoire"
+  },
+  {
+    "author": "Mars F",
+    "title": "Les marcheurs"
+  },
+  {
+    "author": "Martinez C",
+    "title": "Dors ton sommeil de brute"
+  },
+  {
+    "author": "Maupassant G",
+    "title": "Une vie"
+  },
+  {
+    "author": "Mawson R",
+    "title": "L’enfant lazare"
+  },
+  {
+    "author": "May P",
+    "title": "Meurtres à Pékin, La quatrième sacrifice, Les disparues de Shangaï, Cadavres chinois à Houston"
+  },
+  {
+    "author": "Mayle P",
+    "title": "Une année en Provence"
+  },
+  {
+    "author": "Menegaux M",
+    "title": "Femmes en colère"
+  },
+  {
+    "author": "Merle R",
+    "title": "Fortune de France (tomes 1 à 6)"
+  },
+  {
+    "author": "Messadié G",
+    "title": "29 jours avant la fin du monde"
+  },
+  {
+    "author": "Messain L",
+    "title": "Emilie"
+  },
+  {
+    "author": "Meyer P",
+    "title": "American rust"
+  },
+  {
+    "author": "Meyer S",
+    "title": "Twilight (tomes 1 à 4)"
+  },
+  {
+    "author": "Michelet C",
+    "title": "Les promesses du ciel et de la terre (tomes 1 à 3), Des grives aux loups (tomes 1 à 3)"
+  },
+  {
+    "author": "Michener J A",
+    "title": "Caraïbes"
+  },
+  {
+    "author": "Milliez P",
+    "title": "Médecin de la liberté"
+  },
+  {
+    "author": "Min A",
+    "title": "Impératrice Orchidée (tomes 1 et 2)"
+  },
+  {
+    "author": "Minier B",
+    "title": "Glacé, Le cercle, N’éteins pas la lumière, Nuit, Soeurs, La vallée, La chasse, Un œil dans la nuit (série Servaz) , Une putain d’histoire, M le bord de l’abîme"
+  },
+  {
+    "author": "Mitchell M",
+    "title": "Autant en emporte le vent"
+  },
+  {
+    "author": "Mizubayashi A",
+    "title": "Suite inoubliable"
+  },
+  {
+    "author": "Mones N",
+    "title": "La femme perdue"
+  },
+  {
+    "author": "Montaron JP",
+    "title": "Les jeunes en prison"
+  },
+  {
+    "author": "Morrison T",
+    "title": "Beloved"
+  },
+  {
+    "author": "Montanari R",
+    "title": "Déviances"
+  },
+  {
+    "author": "Montlaur P",
+    "title": "Nitocris"
+  },
+  {
+    "author": "Mordillat G",
+    "title": "Les vivants et les morts, Les vivants et les morts vingt ans après"
+  },
+  {
+    "author": "Morillot J",
+    "title": "Les orchidées rouges de Shanghai"
+  },
+  {
+    "author": "Morris H",
+    "title": "Le voyage de Cilka, Le tatoueur d’Auschwitz"
+  },
+  {
+    "author": "Morton A",
+    "title": "Diana sa vraie histoire"
+  },
+  {
+    "author": "Moustiers P",
+    "title": "Un si bel orage"
+  },
+  {
+    "author": "Mullen D",
+    "title": "Entre ciel et enfer"
+  },
+  {
+    "author": "Musso V",
+    "title": "Sans faille, Je reviens te chercher"
+  },
+  {
+    "author": "Nainchrik J",
+    "title": "Tu m’as volé mon étoile (-)"
+  },
+  {
+    "author": "narpoolmin S",
+    "title": "Les enfants du palais blanc"
+  },
+  {
+    "author": "Navalny A",
+    "title": "Patriote"
+  },
+  {
+    "author": "N’Diaye M",
+    "title": "Trois femmes puissantes"
+  },
+  {
+    "author": "Nell Dubus E",
+    "title": "Le dernier rêve de Beau-Chêne"
+  },
+  {
+    "author": "Nemirovsky I",
+    "title": "Suite française"
+  },
+  {
+    "author": "Neville K",
+    "title": "Le huit"
+  },
+  {
+    "author": "Ngor H",
+    "title": "Une odyssée cambodgienne"
+  },
+  {
+    "author": "Niel C",
+    "title": "Darwyne"
+  },
+  {
+    "author": "Nielsen B",
+    "title": "L’étrangère"
+  },
+  {
+    "author": "Nohant G",
+    "title": "La part des flammes"
+  },
+  {
+    "author": "Noli J",
+    "title": "La mariée de l’ombre"
+  },
+  {
+    "author": "Norek O",
+    "title": "Code 93, Territoires, Surtensions, Entre deux mondes, Surface, Impact, Dans les brumes de Capelans, Les guerriers de l’hiver….."
+  },
+  {
+    "author": "Nourissier F",
+    "title": "La fête des pères"
+  },
+  {
+    "author": "Obama B",
+    "title": "Les rêves de mon père, Une terre promise"
+  },
+  {
+    "author": "Obama M",
+    "title": "Devenir"
+  },
+  {
+    "author": "Oe K",
+    "title": "Une affaire personnelle"
+  },
+  {
+    "author": "Offredo J",
+    "title": "Solidarnosc"
+  },
+  {
+    "author": "Olmi V",
+    "title": "Le courage des innocents"
+  },
+  {
+    "author": "Ondaatje M",
+    "title": "Le patient anglais"
+  },
+  {
+    "author": "Opdyke I",
+    "title": "Mémoires d’une juste"
+  },
+  {
+    "author": "Orban O",
+    "title": "Mourir place Tian An Men"
+  },
+  {
+    "author": "Ordas P",
+    "title": "Les griffes de l’hermine"
+  },
+  {
+    "author": "Oufkir M et Fitoussi M",
+    "title": "La prisonnière"
+  },
+  {
+    "author": "Pa K",
+    "title": "Famille"
+  },
+  {
+    "author": "Pagny F et Cosso E",
+    "title": "Pagny par Florent"
+  },
+  {
+    "author": "Palain M",
+    "title": "Les hommes manquent de courage (-)"
+  },
+  {
+    "author": "Pancol K",
+    "title": "Les yeux jaunes de crocodiles"
+  },
+  {
+    "author": "Parent B",
+    "title": "Un jour sur la route j’ai tué un homme"
+  },
+  {
+    "author": "Pavlof F",
+    "title": "Matin brun"
+  },
+  {
+    "author": "Peissel M",
+    "title": "La khamba"
+  },
+  {
+    "author": "PenMan SK",
+    "title": "Terre sainte"
+  },
+  {
+    "author": "Penn Warren R",
+    "title": "L’esclave libre"
+  },
+  {
+    "author": "Pennac D",
+    "title": "La petite marchande de prose, Monsieur Malaussène"
+  },
+  {
+    "author": "Perrin V",
+    "title": "Changer l’eau des fleurs, Trois"
+  },
+  {
+    "author": "Peyrin L",
+    "title": "Une toute petite minute"
+  },
+  {
+    "author": "Perry A",
+    "title": "La sage des Teavley"
+  },
+  {
+    "author": "Picoult J",
+    "title": "Mille petits riens, Le pacte"
+  },
+  {
+    "author": "Picouly D",
+    "title": "L’enfant léopard"
+  },
+  {
+    "author": "Pierre C",
+    "title": "Troubadour"
+  },
+  {
+    "author": "Pinto D",
+    "title": "Entre deux mondes"
+  },
+  {
+    "author": "Piquet M-C",
+    "title": "Poisons"
+  },
+  {
+    "author": "Pinborough S",
+    "title": "Mon amie Adèle"
+  },
+  {
+    "author": "Pisco C",
+    "title": "Lune de ppier"
+  },
+  {
+    "author": "Pobi R",
+    "title": "City of windows, Serial bomber, L’invisible"
+  },
+  {
+    "author": "Pollak E",
+    "title": "La parole est à la défense"
+  },
+  {
+    "author": "Prince Harry",
+    "title": "Le suppléant"
+  },
+  {
+    "author": "Prolongeau H",
+    "title": "La vie quotidienne en Colombie au temps du cartel de Medllin"
+  },
+  {
+    "author": "Puech B",
+    "title": "Sous l’étoile du chien"
+  },
+  {
+    "author": "Puertolas R",
+    "title": "Les ravissantes"
+  },
+  {
+    "author": "Pulixi P",
+    "title": "Le chant des innocents, La librairie des chats noirs, La septième lune"
+  },
+  {
+    "author": "Quinn K",
+    "title": "Le diamant d’Odessa"
+  },
+  {
+    "author": "Quint M",
+    "title": "Les joyeuses"
+  },
+  {
+    "author": "Rachet G",
+    "title": "Vers le bel occident"
+  },
+  {
+    "author": "Raquin B",
+    "title": "Chouans"
+  },
+  {
+    "author": "Raven N",
+    "title": "Demain est déjà si loin"
+  },
+  {
+    "author": "Rebourg D",
+    "title": "L’ange aux ailes de cristal"
+  },
+  {
+    "author": "Redondo D",
+    "title": "Tout cela je te le donnerai"
+  },
+  {
+    "author": "Reichs K",
+    "title": "A tombeau ouvert"
+  },
+  {
+    "author": "Remond A",
+    "title": "Chaque jour est un adieu"
+  },
+  {
+    "author": "Reverdy T",
+    "title": "Le grand secours"
+  },
+  {
+    "author": "Revol A-M",
+    "title": "Nos étoiles ont filé"
+  },
+  {
+    "author": "Roe F",
+    "title": "Soins intensifs"
+  },
+  {
+    "author": "Richmond M",
+    "title": "L’année brouillard"
+  },
+  {
+    "author": "Riley L",
+    "title": "Les 7 sœurs (8 volumes)"
+  },
+  {
+    "author": "Ripley A",
+    "title": "Scarlett"
+  },
+  {
+    "author": "Roberts N",
+    "title": "Lieutenant Eve Dallas (tomes 1 à 10)"
+  },
+  {
+    "author": "Romp J",
+    "title": "Mon ami Ben"
+  },
+  {
+    "author": "Rousselot F",
+    "title": "Une femme au Pakistan"
+  },
+  {
+    "author": "Rowling JK",
+    "title": "Harry Potter (-), Une place à prendre"
+  },
+  {
+    "author": "Rubenfeld J",
+    "title": "L’origine du silence"
+  },
+  {
+    "author": "Rufin J-C",
+    "title": "Les causes perdues, D’or et de jungle"
+  },
+  {
+    "author": "Ruiz A",
+    "title": "La main étrangère"
+  },
+  {
+    "author": "Saadaoui N E",
+    "title": "Ferdaous,une voix en enfer"
+  },
+  {
+    "author": "Saint-Exupéry A",
+    "title": "Oeuvres, Vol de nuit"
+  },
+  {
+    "author": "Saglio-Yatziminsky MC",
+    "title": "La voix de ceux qui crient"
+  },
+  {
+    "author": "Sakharov A",
+    "title": "Mémoires"
+  },
+  {
+    "author": "Salomé J",
+    "title": "Papa, Mamn, écoutez-moi vraiment"
+  },
+  {
+    "author": "Salvayre L",
+    "title": "Pas pleurer"
+  },
+  {
+    "author": "Sampedro JL",
+    "title": "Le sourire étrusque"
+  },
+  {
+    "author": "Saniee P",
+    "title": "Le voile de Téhéran"
+  },
+  {
+    "author": "Sapienza G",
+    "title": "L’art de la joie"
+  },
+  {
+    "author": "Sapin Defour C",
+    "title": "Où les étoiles tombent"
+  },
+  {
+    "author": "Schlink B",
+    "title": "Le liseur"
+  },
+  {
+    "author": "Schlogel G",
+    "title": "Docteur Hellen, Les princes de sang, Toubib"
+  },
+  {
+    "author": "Schmitt E-E",
+    "title": "Oscar et la dame rose, La femme au miroir, Concerto à la mémoire d’un ange"
+  },
+  {
+    "author": "Schurer G",
+    "title": "Les hautes plaines"
+  },
+  {
+    "author": "Schwartz L",
+    "title": "Perdu dans les bois"
+  },
+  {
+    "author": "Sedaris D",
+    "title": "Je suis très à cheval sur les principes"
+  },
+  {
+    "author": "Seff R",
+    "title": "Les étoiles meurent aussi"
+  },
+  {
+    "author": "Segal E",
+    "title": "Actes de foi"
+  },
+  {
+    "author": "Selinco A",
+    "title": "J’étais une jeune fille laide"
+  },
+  {
+    "author": "Semprun J",
+    "title": "L’écriture ou la vie, Quel beau dilanche"
+  },
+  {
+    "author": "Sem-Sandberg S",
+    "title": "Les élus"
+  },
+  {
+    "author": "Serrou R",
+    "title": "Pie XII, le pape-roi"
+  },
+  {
+    "author": "Seurat M",
+    "title": "Les corbeaux d’Alep"
+  },
+  {
+    "author": "Shafak E",
+    "title": "Les fleuves du ciel (-)"
+  },
+  {
+    "author": "Shaffii-Le Bourdiec A",
+    "title": "Dans ma maison sous terre (-)"
+  },
+  {
+    "author": "Sicotte A M",
+    "title": "Les accoucheuses (tomes 1 à 3)"
+  },
+  {
+    "author": "Signoret S",
+    "title": "Adieu Volodia"
+  },
+  {
+    "author": "Simonds C et Warren B",
+    "title": "Le rire médecin"
+  },
+  {
+    "author": "Simon Y",
+    "title": "Le prochain amour"
+  },
+  {
+    "author": "Simons P",
+    "title": "Tatiana et Alexandre"
+  },
+  {
+    "author": "Sinoué G",
+    "title": "Inch’ Allah (-)"
+  },
+  {
+    "author": "Sire C",
+    "title": "Survivantes, Vindicta, La saignée"
+  },
+  {
+    "author": "Sire G",
+    "title": "Avant la longue flamme rouge"
+  },
+  {
+    "author": "Sisavong Sor",
+    "title": "L’enfant de la rizière rouge"
+  },
+  {
+    "author": "Slaughter",
+    "title": "Opération épidémie"
+  },
+  {
+    "author": "Slimani L",
+    "title": "Chanson douce"
+  },
+  {
+    "author": "Solare E",
+    "title": "Crois en moi"
+  },
+  {
+    "author": "Solé R",
+    "title": "Le sémaphore d’Alexandrie, Le tarbouche"
+  },
+  {
+    "author": "Spark M",
+    "title": "La porte Mandelbaum"
+  },
+  {
+    "author": "Spindler E",
+    "title": "Black rose"
+  },
+  {
+    "author": "Steinbeck J",
+    "title": "Les raisins de la colère"
+  },
+  {
+    "author": "Steel D",
+    "title": "Le cadeau"
+  },
+  {
+    "author": "Sten C",
+    "title": "Le village perdu"
+  },
+  {
+    "author": "Stevens S",
+    "title": "Au-delà du mal"
+  },
+  {
+    "author": "Stockett K",
+    "title": "La couleur des sentiments"
+  },
+  {
+    "author": "Stuart A",
+    "title": "La sage-femme d’Auschwitz, La sage-femme de Berlin"
+  },
+  {
+    "author": "Styron W",
+    "title": "Le choix de Sophie"
+  },
+  {
+    "author": "Sulitzer PL",
+    "title": "L’impératrice, Hannah"
+  },
+  {
+    "author": "Suu Kyi A S",
+    "title": "Se libérer de la peur"
+  },
+  {
+    "author": "Suyin H",
+    "title": "Multiple splendeur, La cité des sortilèges, Jusqu’au matin"
+  },
+  {
+    "author": "Swindells M",
+    "title": "Edelweiss"
+  },
+  {
+    "author": "Tabachnik M",
+    "title": "Ne vous retournez pas, Le cinquième jour, L’empreinte du nain, Désert barbare"
+  },
+  {
+    "author": "Tackian n",
+    "title": "La menace"
+  },
+  {
+    "author": "Tartt D",
+    "title": "Le maitre des illusions"
+  },
+  {
+    "author": "Taylor Bradford B",
+    "title": "Pouvoir d’une femme"
+  },
+  {
+    "author": "Taylor K",
+    "title": "Inconnu à cette adresse"
+  },
+  {
+    "author": "Tcherina L",
+    "title": "L’amour au miroir"
+  },
+  {
+    "author": "Teisson J",
+    "title": "L’enfant plume"
+  },
+  {
+    "author": "Teulé J",
+    "title": "Le magasin des suicides"
+  },
+  {
+    "author": "Texier J M",
+    "title": "Le crime des Hautes Terres"
+  },
+  {
+    "author": "Theveny S",
+    "title": "La disparition de Veronika Lake (Karen Blackstone1), Je veux maman (Karen Blackstone 2), Le fils perdu (Karen Blackstone 3)"
+  },
+  {
+    "author": "Thilliez F",
+    "title": "Syndrome (E), Gataca, Atomka, Angor,Pandémia, Sharko, Luca, 1991, La faille, Rever, Norferville, A retardement, Fractures"
+  },
+  {
+    "author": "Tillion G",
+    "title": "Il était une fois l’ethnographie"
+  },
+  {
+    "author": "Toibin C",
+    "title": "Long Island"
+  },
+  {
+    "author": "Toulat J",
+    "title": "La bombe ou la vie"
+  },
+  {
+    "author": "Tremblay d’Essiambre L",
+    "title": "Mémoires d’un quartier (tomes 1 à 6)"
+  },
+  {
+    "author": "Troyat H",
+    "title": "Les semailles et les moissons (tomes 1 à 5), Les Eygletières (tomes 1 à 3), Aliocha"
+  },
+  {
+    "author": "Trump M L",
+    "title": "Trop et jamais assez"
+  },
+  {
+    "author": "Tuil K",
+    "title": "La décision"
+  },
+  {
+    "author": "Tuti I",
+    "title": "Les femmes d’Endell Street"
+  },
+  {
+    "author": "Valentin L",
+    "title": "Les roses de Dublin"
+  },
+  {
+    "author": "Valognes A",
+    "title": "Au petit bonheur la chance"
+  },
+  {
+    "author": "Van Der Meersch M",
+    "title": "Corps et âmes (tome 1 et 2)"
+  },
+  {
+    "author": "Vargas F",
+    "title": "Ceux qui vont mourir te saluent,Un lieu incertain, L’armée furieuse, Temps glaciaires, L’homme aux cercles bleus"
+  },
+  {
+    "author": "Vasseur V",
+    "title": "Médecin-chef à la prison de la santé"
+  },
+  {
+    "author": "Vautrin J",
+    "title": "Canicule"
+  },
+  {
+    "author": "Verdon J",
+    "title": "658"
+  },
+  {
+    "author": "Versant M",
+    "title": "La double vie d’Isabelle de Lange"
+  },
+  {
+    "author": "Vian B",
+    "title": "L’herbe rouge"
+  },
+  {
+    "author": "Vincent C",
+    "title": "L’air de la calomnie"
+  },
+  {
+    "author": "Vital-Tihanyi I",
+    "title": "La vie sauve"
+  },
+  {
+    "author": "Wallraff G",
+    "title": "Tête de turc"
+  },
+  {
+    "author": "Walker E",
+    "title": "Au risque de la vie"
+  },
+  {
+    "author": "Weaver M",
+    "title": "Obsession mortelle"
+  },
+  {
+    "author": "West J et Fried J",
+    "title": "Trauma"
+  },
+  {
+    "author": "Willocks T",
+    "title": "La religion, Les douze enfants de Paris, La mort selon Turner"
+  },
+  {
+    "author": "Winckler M",
+    "title": "Le chœur des femmes"
+  },
+  {
+    "author": "Wolfe T",
+    "title": "Moi, Charlotte Simmons"
+  },
+  {
+    "author": "Yelnick B et C",
+    "title": "Deux et la folie"
+  },
+  {
+    "author": "Young S",
+    "title": "Dans le berceau de l’ennemi"
+  },
+  {
+    "author": "Zevin G",
+    "title": "Demain et demain et demain"
+  },
+  {
+    "author": "Zola E",
+    "title": "Au bonheur des dames"
+  },
+  {
+    "author": "Zuckoff M",
+    "title": "Le jour où les anges ont pleuré"
+  },
+  {
+    "author": "Zuiker AE",
+    "title": "Level 26 (tomes 1 à 3)"
   }
 ]
