@@ -2,7 +2,7 @@
   {
     "author": "Adler Olsen J",
     "format": "livre de poche",
-    "priority": false,
+    "priority": true,
     "provenance": "",
     "title": "Les morts ne chantent pas "
   },
@@ -65,7 +65,7 @@
   {
     "author": "Di Fulvio L",
     "format": "livre de poche",
-    "priority": false,
+    "priority": true,
     "provenance": "",
     "title": "L‘empailleur (en français, très difficile à trouver"
   },
@@ -247,7 +247,7 @@
   {
     "author": "Pobi R",
     "format": "livre de poche",
-    "priority": false,
+    "priority": true,
     "provenance": "",
     "title": "Do not Harm (en français"
   },
