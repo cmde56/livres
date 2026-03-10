@@ -522,3 +522,75 @@ button[disabled] {
     color: #ffffff;
   }
 }
+
+#stats-view {
+  margin-top: 1.5rem;
+}
+
+.stats-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.stats-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.stats-subtitle {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.stats-source-toggle {
+  display: inline-flex;
+  gap: 0.25rem;
+}
+
+.stats-source-button {
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  padding: 0.2rem 0.7rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.stats-source-button.is-active {
+  background: color-mix(in srgb, var(--accent) 18%, var(--bg) 82%);
+  border-color: var(--accent);
+  color: var(--fg);
+}
+
+.stats-card {
+  background: var(--bg-elevated);
+  border-radius: 0.9rem;
+  border: 1px solid var(--border-soft);
+  box-shadow: var(--shadow-soft);
+  padding: 0.8rem 0.9rem;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.stats-table th,
+.stats-table td {
+  padding: 0.5rem 0.7rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.stats-table th {
+  font-weight: 600;
+  color: var(--muted);
+  background-color: color-mix(in srgb, var(--bg-elevated) 80%, var(--border) 20%);
+}
+
+.stats-table tbody tr:nth-child(even) {
+  background-color: color-mix(in srgb, var(--bg-elevated) 94%, black 6%);
+}

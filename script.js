@@ -35,7 +35,8 @@
     currentView: 'wantlist',
     pageSize: 100,
     currentPage: 1,
-    searchQuery: ''
+    searchQuery: '',
+    statsSource: 'all'
   };
 
   const statusEl = document.getElementById('status');
@@ -49,6 +50,9 @@
   const searchInput = document.getElementById('search');
   const countEl = document.getElementById('count');
   const topNoteSection = document.querySelector('.top-note');
+  const tableWrapper = document.querySelector('.table-wrapper');
+  const controlsSection = document.querySelector('.controls');
+  const statsViewEl = document.getElementById('stats-view');
 
   function normalizeProvenance(value) {
     if (!value) return '';
@@ -59,6 +63,11 @@
       return 'médiathèque';
     }
     return trimmed;
+  }
+
+  function normalizeView(view) {
+    if (view === 'lus' || view === 'stats') return view;
+    return 'wantlist';
   }
 
   function countTitlesInString(title) {
@@ -75,8 +84,40 @@
     return items.reduce((sum, item) => sum + countTitlesInString(item.title), 0);
   }
 
+  function buildAuthorStats(source) {
+    let items;
+    if (source === 'wishlist') {
+      items = Array.isArray(state.data.wantlist) ? state.data.wantlist : [];
+    } else if (source === 'lus') {
+      items = Array.isArray(state.data.lus) ? state.data.lus : [];
+    } else {
+      const w = Array.isArray(state.data.wantlist) ? state.data.wantlist : [];
+      const l = Array.isArray(state.data.lus) ? state.data.lus : [];
+      items = w.concat(l);
+    }
+
+    const counts = new Map();
+
+    items.forEach((item) => {
+      const author = (item.author || '').trim();
+      if (!author) return;
+      const n = countTitlesInString(item.title);
+      const increment = n > 0 ? n : 1;
+      counts.set(author, (counts.get(author) || 0) + increment);
+    });
+
+    const list = Array.from(counts.entries())
+      .filter((entry) => entry[1] > 2)
+      .sort((a, b) => {
+        if (b[1] !== a[1]) return b[1] - a[1];
+        return a[0].localeCompare(b[0]);
+      });
+
+    return list;
+  }
+
   function setView(view) {
-    const nextView = view === 'lus' ? 'lus' : 'wantlist';
+    const nextView = normalizeView(view);
     state.currentView = nextView;
     state.currentPage = 1;
 
@@ -96,6 +137,28 @@
       // ignore storage errors
     }
 
+    if (state.currentView === 'stats') {
+      if (tableWrapper) {
+        tableWrapper.hidden = true;
+      }
+      if (controlsSection) {
+        controlsSection.hidden = true;
+      }
+      if (statsViewEl) {
+        statsViewEl.hidden = false;
+      }
+    } else {
+      if (tableWrapper) {
+        tableWrapper.hidden = false;
+      }
+      if (controlsSection) {
+        controlsSection.hidden = false;
+      }
+      if (statsViewEl) {
+        statsViewEl.hidden = true;
+      }
+    }
+
     updateTopNoteVisibility();
 
     render();
@@ -104,18 +167,18 @@
   function initView() {
     let initial = 'wantlist';
     try {
-      const stored = localStorage.getItem('dvd.view');
-      if (stored === 'wantlist' || stored === 'lus') {
-        initial = stored;
-      }
+       const stored = localStorage.getItem('dvd.view');
+       if (stored === 'wantlist' || stored === 'lus' || stored === 'stats') {
+         initial = stored;
+       }
     } catch (e) {
       // ignore storage errors
     }
 
-    state.currentView = initial;
+    state.currentView = normalizeView(initial);
 
     if (viewSelect) {
-      viewSelect.value = initial;
+       viewSelect.value = state.currentView;
     }
 
     const desktopToggle = document.querySelectorAll('.view-toggle-button');
@@ -124,12 +187,24 @@
       btn.classList.toggle('is-active', btnView === state.currentView);
     });
 
+    if (state.currentView === 'stats') {
+      if (tableWrapper) {
+        tableWrapper.hidden = true;
+      }
+      if (controlsSection) {
+        controlsSection.hidden = true;
+      }
+      if (statsViewEl) {
+        statsViewEl.hidden = false;
+      }
+    }
+
     updateTopNoteVisibility();
   }
 
   function updateTopNoteVisibility() {
     if (!topNoteSection) return;
-    if (state.currentView === 'lus') {
+    if (state.currentView === 'lus' || state.currentView === 'stats') {
       topNoteSection.style.display = 'none';
     } else {
       topNoteSection.style.display = '';
@@ -139,7 +214,7 @@
   function setupViewSwitch() {
     if (viewSelect) {
       viewSelect.addEventListener('change', () => {
-        const next = viewSelect.value === 'lus' ? 'lus' : 'wantlist';
+        const next = viewSelect.value || 'wantlist';
         setView(next);
       });
     }
@@ -148,7 +223,7 @@
     desktopButtons.forEach((btn) => {
       btn.addEventListener('click', () => {
         const view = btn.getAttribute('data-view');
-        setView(view === 'lus' ? 'lus' : 'wantlist');
+        setView(view || 'wantlist');
       });
     });
   }
@@ -422,6 +497,9 @@
   }
 
   function renderTables() {
+    if (controlsSection) {
+      controlsSection.style.display = '';
+    }
     const dataset = getCurrentDataset();
     const totalItems = dataset.length;
 
@@ -569,6 +647,84 @@
     }
   }
 
+   function renderStats() {
+     const statsRoot = document.getElementById('stats-view');
+     if (!statsRoot) return;
+
+     if (controlsSection) {
+       controlsSection.style.display = 'none';
+     }
+
+     const hasWishlist = Array.isArray(state.data.wantlist) && state.data.wantlist.length > 0;
+     const hasLus = Array.isArray(state.data.lus) && state.data.lus.length > 0;
+
+     if (!hasWishlist && !hasLus) {
+       statsRoot.innerHTML = '<p class="placeholder">Aucune donnée chargée pour le moment.</p>';
+       return;
+     }
+
+     if (state.statsSource === 'wishlist' && !hasWishlist) {
+       state.statsSource = hasLus ? 'lus' : 'all';
+     }
+     if (state.statsSource === 'lus' && !hasLus) {
+       state.statsSource = hasWishlist ? 'wishlist' : 'all';
+     }
+
+     const rows = buildAuthorStats(state.statsSource);
+
+     const sourceLabel =
+       state.statsSource === 'wishlist' ? 'Wishlist' :
+       state.statsSource === 'lus' ? 'Lus' :
+       'Tout';
+
+     const tableHtml = rows.length
+       ? `
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th>Auteur</th>
+            <th>Nombre de titres</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map(([author, count]) => `
+            <tr>
+              <td>${author}</td>
+              <td>${count}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    `
+       : '<p class="placeholder">Aucun auteur avec plus de 2 titres.</p>';
+
+     statsRoot.innerHTML = `
+    <div class="stats-header">
+      <h2 class="stats-title">Auteurs préférés: ${sourceLabel}</h2>
+      <div class="stats-source-toggle">
+        <button type="button" class="stats-source-button" data-source="wishlist">Wishlist</button>
+        <button type="button" class="stats-source-button" data-source="lus">Lus</button>
+        <button type="button" class="stats-source-button" data-source="all">Tout</button>
+      </div>
+    </div>
+    <div class="stats-card">
+      ${tableHtml}
+    </div>
+  `;
+
+     const buttons = statsRoot.querySelectorAll('.stats-source-button');
+     buttons.forEach((btn) => {
+       const src = btn.getAttribute('data-source');
+       btn.classList.toggle('is-active', src === state.statsSource);
+       btn.addEventListener('click', () => {
+         const next = btn.getAttribute('data-source') || 'all';
+         if (next === state.statsSource) return;
+         state.statsSource = next === 'wishlist' || next === 'lus' ? next : 'all';
+         renderStats();
+       });
+     });
+   }
+
   function updatePaginationControls(totalItems) {
     if (state.pageSize === 'all' || totalItems === 0) {
       pageInfo.textContent = 'Page 1 sur 1';
@@ -598,7 +754,11 @@
   }
 
   function render() {
-    renderTables();
+    if (state.currentView === 'stats') {
+      renderStats();
+    } else {
+      renderTables();
+    }
   }
 
   function onPageSizeChange(event) {
