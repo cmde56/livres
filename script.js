@@ -683,7 +683,7 @@
         <thead>
           <tr>
             <th>Auteur</th>
-            <th>Nombre de titres</th>
+            <th>Nombre de livres</th>
           </tr>
         </thead>
         <tbody>
@@ -696,7 +696,7 @@
         </tbody>
       </table>
     `
-       : '<p class="placeholder">Aucun auteur avec plus de 2 titres.</p>';
+       : '<p class="placeholder">Aucun auteur avec plus de 2 livres.</p>';
 
      statsRoot.innerHTML = `
     <div class="stats-header">
