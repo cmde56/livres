@@ -25,14 +25,14 @@
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": "Les déracinés: 5 tomes"
+    "title": "Les déracinés (5 tomes)"
   },
   {
     "author": "Barker P",
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
-    "title": "Les exilées de Troie et Le silence des vaincues"
+    "title": "Les exilées de Troie, Le silence des vaincues"
   },
   {
     "author": "Chalandon S",
@@ -106,8 +106,8 @@
   },
   {
     "author": "Giambanco Valentina",
-    "format": "",
-    "priority": false,
+    "format": "livre de poche",
+    "priority": true,
     "provenance": "",
     "title": " Blood and bone (si en français)"
   },
