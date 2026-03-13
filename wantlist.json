@@ -35,6 +35,13 @@
     "title": "Les exilées de Troie, Le silence des vaincues"
   },
   {
+    "author": "Calmel M",
+    "format": "",
+    "priority": true,
+    "provenance": "",
+    "title": "Le masque et la lame"
+  },
+  {
     "author": "Chalandon S",
     "format": "",
     "priority": false,
@@ -261,7 +268,7 @@
   {
     "author": "Pulixi P",
     "format": "livre de poche",
-    "priority": false,
+    "priority": true,
     "provenance": "",
     "title": "L’île des âmes"
   },
@@ -292,6 +299,13 @@
     "priority": false,
     "provenance": "",
     "title": "Babylone"
+  },
+  {
+    "author": "Reid T",
+    "format": "livre de poche",
+    "priority": true,
+    "provenance": "",
+    "title": "Atmosphère"
   },
   {
     "author": "Ryan D",
