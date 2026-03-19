@@ -120,6 +120,10 @@
     "title": "Il était un piano noir…"
   },
   {
+    "author": "Barbereau Y",
+    "title": "Dans les geôles de Sibérie"
+  },
+  {
     "author": "Bardon C",
     "title": ""
   },
@@ -416,6 +420,10 @@
     "title": "Une bonne épouse indienne"
   },
   {
+    "author": "Charine M",
+    "title": "Léonie"
+  },
+  {
     "author": "Charland JP",
     "title": "Félicité 1, Félicité 2, Les portes de Québec 1, Les portes de Québec 2, Les portes de Québec 3, Les portes de Québec 4"
   },
@@ -520,6 +528,10 @@
     "title": "De chair et de sang"
   },
   {
+    "author": "Cuxin L",
+    "title": "Le dernier danseur de Mao"
+  },
+  {
     "author": "Cussler C",
     "title": "Sahara"
   },
@@ -580,10 +592,6 @@
     "title": "La garnd-mère de Jade"
   },
   {
-    "author": "Dejean C",
-    "title": "Le cheptel, Matrices, Châtiment, La mue"
-  },
-  {
     "author": "Delaflotte-Mehdevi A",
     "title": "La relieuse du gué, Le portefeuille rouge"
   },
@@ -596,6 +604,10 @@
     "title": "Jalna 1, Jalna 2, Jalna 3, Jalna 4, Jalna 5, Jalna 6, Jalna 7, Jalna 8, Jalna 9, Jalna 10, Jalna 11, Jalna 12, Jalna 13, Jalna 14, Jalna 15, Jalna 16"
   },
   {
+    "author": "Delaume C",
+    "title": "Dans ma maison sous terre (-)"
+  },
+  {
     "author": "Delcroix A",
     "title": "Mémoires d’un expert psychiatre"
   },
@@ -606,6 +618,10 @@
   {
     "author": "Deniau JF",
     "title": "Tadjoura"
+  },
+  {
+    "author": "Dejean C",
+    "title": "Le cheptel, Matrices, Châtiment, La mue"
   },
   {
     "author": "Denker H",
@@ -686,6 +702,10 @@
   {
     "author": "Dosa D",
     "title": "Un chat médium nommé Oscar"
+  },
+  {
+    "author": "DosSanto JR",
+    "title": "Un millionnaire à Lisbonne"
   },
   {
     "author": "Dreyfus L et Casanova B",
@@ -1064,6 +1084,10 @@
     "title": "Birdman"
   },
   {
+    "author": "Hayes T",
+    "title": "Je suis Pilgrim"
+  },
+  {
     "author": "Hébrard F",
     "title": "Le mois de septembre"
   },
@@ -1086,6 +1110,10 @@
   {
     "author": "Higgins Clark M",
     "title": "La maison du guet, Ne pleure pas ma belle, Le fantôme de lady Margaret, Recherche jeune femme aimant danser, Nous n’irons plus au bois, Un jour tu verras…,Rien ne vaut la douceur du foyer, Tu m’appartiens, Une si longue nuit,La maison du clair de lune, Une seconde chance"
+  },
+  {
+    "author": "Hilderbrand E",
+    "title": "Un été à Nantucket"
   },
   {
     "author": "Hislop V",
@@ -1252,8 +1280,16 @@
     "title": "Lettres à mes filles"
   },
   {
+    "author": "Kouchner C",
+    "title": "La familia grande"
+  },
+  {
     "author": "Krantz J",
     "title": "Rendez-vous"
+  },
+  {
+    "author": "Kraus C",
+    "title": "La fabrique des salauds (-)"
   },
   {
     "author": "Kristeva J",
@@ -1261,7 +1297,7 @@
   },
   {
     "author": "Kübler-Ross E",
-    "title": "La mort est une question vital"
+    "title": "La mort est une question vitale"
   },
   {
     "author": "Laberge M",
@@ -1282,6 +1318,10 @@
   {
     "author": "Läckberg C et Fexeus H",
     "title": "La boite à magie, Mirage (-)"
+  },
+  {
+    "author": "Lançon P",
+    "title": "Le lambeau"
   },
   {
     "author": "Lapierre A",
@@ -1320,7 +1360,7 @@
     "title": "Le déluge"
   },
   {
-    "author": "le Corno M",
+    "author": "Le Corno M",
     "title": "Un regard sur l’école"
   },
   {
@@ -1372,12 +1412,20 @@
     "title": "Pourquoi j’ai tué mon père"
   },
   {
+    "author": "Lieby A",
+    "title": "Une larme m'a sauvée"
+  },
+  {
     "author": "Linarès LM",
     "title": "Chaque jour a son secret"
   },
   {
     "author": "Lierow D et B",
     "title": "L’histoire de Dani"
+  },
+  {
+    "author": "Littell J",
+    "title": "Les bienveillantes (-)"
   },
   {
     "author": "Loevenbruck H",
@@ -1390,6 +1438,10 @@
   {
     "author": "Lottman E",
     "title": "Les dames de Boston"
+  },
+  {
+    "author": "Loubry J",
+    "title": "Les chiens de Détroit"
   },
   {
     "author": "Louvet G",
@@ -1444,6 +1496,10 @@
     "title": "La psy, La prof"
   },
   {
+    "author": "Mackintosh C",
+    "title": "Le choix de revivre"
+  },
+  {
     "author": "MacLeod J L",
     "title": "Les lumières d’Assam"
   },
@@ -1466,6 +1522,10 @@
   {
     "author": "Mailer N",
     "title": "Les nus et les morts"
+  },
+  {
+    "author": "Makkai R",
+    "title": "Les optimistes"
   },
   {
     "author": "Mallet-Joris F",
@@ -1493,7 +1553,7 @@
   },
   {
     "author": "Manook Y",
-    "title": "Yeruldelger"
+    "title": "Yeruldelger, L'oiseau bleu d'Erzéroum"
   },
   {
     "author": "Mansouri S",
@@ -1568,6 +1628,10 @@
     "title": "Caraïbes"
   },
   {
+    "author": "Midewood E",
+    "title": "L'ange d'Auschwitz"
+  },
+  {
     "author": "Milliez P",
     "title": "Médecin de la liberté"
   },
@@ -1640,7 +1704,7 @@
     "title": "Tu m’as volé mon étoile (-)"
   },
   {
-    "author": "narpoolmin S",
+    "author": "Narpoolmin S",
     "title": "Les enfants du palais blanc"
   },
   {
@@ -1708,6 +1772,10 @@
     "title": "Solidarnosc"
   },
   {
+    "author": "Ogawa Y",
+    "title": "Un thé qui ne refroidit pas"
+  },
+  {
     "author": "Olmi V",
     "title": "Le courage des innocents"
   },
@@ -1742,6 +1810,10 @@
   {
     "author": "Palain M",
     "title": "Les hommes manquent de courage (-)"
+  },
+  {
+    "author": "Pamuk O",
+    "title": "Les nuits de la peste (-)"
   },
   {
     "author": "Pancol K",
@@ -1893,7 +1965,7 @@
   },
   {
     "author": "Riley L",
-    "title": "Les 7 sœurs, La soeur de la tempête, La soeur de l'ombre, La soeur à la perle, La soieur de la lune, La soeur du soleil, La soeur disparue, Atlas L'histoire de Pas salt"
+    "title": "Les 7 sœurs, La soeur de la tempête, La soeur de l'ombre, La soeur à la perle, La soeur de la lune, La soeur du soleil, La soeur disparue, Atlas L'histoire de Pas salt"
   },
   {
     "author": "Ripley A",
@@ -1928,6 +2000,10 @@
     "title": "La main étrangère"
   },
   {
+    "author": "Ruiz Safon C",
+    "title": "L'ombre du vent"
+  },
+  {
     "author": "Saadaoui N E",
     "title": "Ferdaous-une voix en enfer"
   },
@@ -1954,6 +2030,10 @@
   {
     "author": "Sampedro JL",
     "title": "Le sourire étrusque"
+  },
+  {
+    "author": "Sands P",
+    "title": "La filière (-)"
   },
   {
     "author": "Saniee P",
@@ -2112,6 +2192,10 @@
     "title": "La sage-femme d’Auschwitz, La sage-femme de Berlin"
   },
   {
+    "author": "Stuart D",
+    "title": "Shuggie bain"
+  },
+  {
     "author": "Styron W",
     "title": "Le choix de Sophie"
   },
@@ -2126,6 +2210,10 @@
   {
     "author": "Suyin H",
     "title": "Multiple splendeur, La cité des sortilèges, Jusqu’au matin"
+  },
+  {
+    "author": "Swild L",
+    "title": "Bodyguard (-)"
   },
   {
     "author": "Swindells M",
@@ -2174,6 +2262,10 @@
   {
     "author": "Thilliez F",
     "title": "Syndrome (E), Gataca, Atomka, Angor,Pandémia, Sharko, Luca, 1991, La faille, Rever, Norferville, A retardement, Fractures"
+  },
+  {
+    "author": "Thompson E",
+    "title": "Tatto"
   },
   {
     "author": "Tillion G",
@@ -2266,6 +2358,10 @@
   {
     "author": "West J et Fried J",
     "title": "Trauma"
+  },
+  {
+    "author": "Whitehead C",
+    "title": "Nickels boys, Underground railroad"
   },
   {
     "author": "Willocks T",
