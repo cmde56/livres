@@ -7,13 +7,6 @@
     "title": "Les morts ne chantent pas "
   },
   {
-    "author": "Bal Olivier",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Roches de sang"
-  },
-  {
     "author": "Bannel C",
     "format": "livre de poche",
     "priority": false,
@@ -40,13 +33,6 @@
     "priority": true,
     "provenance": "",
     "title": "Le masque et la lame"
-  },
-  {
-    "author": "Chalandon S",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "L’enragé"
   },
   {
     "author": "Chattam M",
@@ -105,25 +91,11 @@
     "title": "Le cercle des jours"
   },
   {
-    "author": "French Tana",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "La maison des absents"
-  },
-  {
     "author": "Giambanco Valentina",
     "format": "livre de poche",
     "priority": true,
     "provenance": "",
     "title": " Blood and bone (si en français)"
-  },
-  {
-    "author": "Giebel K",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Terminus Elicius, Chambres noires"
   },
   {
     "author": "Giebel K",
@@ -140,25 +112,11 @@
     "title": "Des os dans le désert"
   },
   {
-    "author": "Gounelle L",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Le réveil"
-  },
-  {
     "author": "Grebe C",
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
     "title": "L’ombre de la baleine"
-  },
-  {
-    "author": "Green Emma",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Ce qui nous rend vivants"
   },
   {
     "author": "Gustawsson J",
@@ -173,27 +131,6 @@
     "priority": false,
     "provenance": "",
     "title": "Abattage"
-  },
-  {
-    "author": "Indridason A",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Les nuits de Reykjavik, Le lagon noir,  Les fils de la poussière, Les roses de la nuit, La femme en vert, La voix, L’homme du lac, Hiver arctique, Hypothermie, La rivière noire, Les murailles de lave, Etranges rivages"
-  },
-  {
-    "author": "Jacobs Anne",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Série « La villa aux étoffes »"
-  },
-  {
-    "author": "Joncour S",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Chaleur humaine"
   },
   {
     "author": "Jourdan-Vezia JF",
@@ -238,13 +175,6 @@
     "title": "Le sang du christ, Le manuel du serial killer"
   },
   {
-    "author": "Pinborough S",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Insomnia "
-  },
-  {
     "author": "Pobi R",
     "format": "livre de poche",
     "priority": true,
@@ -264,20 +194,6 @@
     "priority": false,
     "provenance": "",
     "title": "Le camp des saints"
-  },
-  {
-    "author": "Ravenne G",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Saga « Soleil noir »"
-  },
-  {
-    "author": "Reverdy T-B",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Le grand secours"
   },
   {
     "author": "Reza Yasmina",
@@ -329,13 +245,6 @@
     "title": "La fille des camps"
   },
   {
-    "author": "Tabachnik Maud",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Le chien qui riait, Ciel de cendres"
-  },
-  {
     "author": "Theveny S",
     "format": "",
     "priority": false,
@@ -364,24 +273,10 @@
     "title": "Une simple histoire d’amour , Histoire de femme (4 tomes)"
   },
   {
-    "author": "Van Der Vlugt S",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Bleu de Delft"
-  },
-  {
     "author": "Verdon John",
     "format": "livre de poche",
     "priority": false,
     "provenance": "",
     "title": "Ne réveillez pas le diable qui dort"
-  },
-  {
-    "author": "Widholm K",
-    "format": "",
-    "priority": false,
-    "provenance": "médiathèque",
-    "title": "Destinée suédoise (4 tomes)"
   }
 ]
