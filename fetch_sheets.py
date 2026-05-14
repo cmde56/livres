@@ -53,6 +53,10 @@ def fetch_sheet_values(
         raw_priority = row_dict.get("Prioritaire", "").strip().lower()
         priority = raw_priority == "oui"
 
+        provenance_raw = row_dict.get("Provenance", "").strip().lower()
+        if provenance_raw in ("médiathèque", "mediatheque"):
+            continue
+
         mapped_rows.append(
             {
                 "author": row_dict.get("Auteur", ""),
