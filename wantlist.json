@@ -273,6 +273,13 @@
     "title": "Dans la série Sharko-Hennebelle : Train d’enfer pour ange rouge, La chambre des morts, Deuil de miel,"
   },
   {
+    "author": "Tourancheau P",
+    "format": "livre de poche",
+    "priority": true,
+    "provenance": "",
+    "title": "Le casse du Louvre"
+  },
+  {
     "author": "Tremblay d'Essiambre",
     "format": "livre de poche",
     "priority": false,
@@ -285,5 +292,12 @@
     "priority": false,
     "provenance": "",
     "title": "Ne réveillez pas le diable qui dort"
+  },
+  {
+    "author": "Willis E H",
+    "format": "livre de poche ",
+    "priority": true,
+    "provenance": "",
+    "title": "Le voyage inattendu"
   }
 ]
