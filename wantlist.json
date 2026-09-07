@@ -1,12 +1,5 @@
 [
   {
-    "author": "Adler Olsen J",
-    "format": "livre de poche",
-    "priority": true,
-    "provenance": "",
-    "title": "Les morts ne chantent pas "
-  },
-  {
     "author": "Bannel C",
     "format": "livre de poche",
     "priority": false,
@@ -229,6 +222,13 @@
     "priority": false,
     "provenance": "",
     "title": "La montagne de diamants (2 tomes)"
+  },
+  {
+    "author": "Stedman M.L",
+    "format": "livre de poche",
+    "priority": true,
+    "provenance": "",
+    "title": "Une vie entre deux océans"
   },
   {
     "author": "Sweeny N.",
